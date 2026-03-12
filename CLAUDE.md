@@ -6,6 +6,190 @@ en este repositorio en futuras conversaciones.
 ---
 
 ## ¿Qué es este proyecto?
+# CLAUDE.md
+
+## Proyecto
+
+Landing pública de **FlowEstudio**.
+
+FlowEstudio es una plataforma SaaS pensada para estudios de Pilates,
+fitness o negocios similares que quieren automatizar su atención por
+WhatsApp y organizar su operación desde una sola plataforma.
+
+Este repositorio contiene **únicamente la landing pública del
+producto**.
+
+------------------------------------------------------------------------
+
+# Objetivo de la landing
+
+La landing existe para:
+
+-   explicar qué hace FlowEstudio
+-   presentar el valor del sistema
+-   generar confianza
+-   invitar a probar la plataforma
+-   redirigir a registro o login
+
+CTA principal:
+
+**"Probar gratis 6 meses"**
+
+Esta etapa es una **fase piloto de validación del producto**.
+
+------------------------------------------------------------------------
+
+# Qué NO es este proyecto
+
+Este proyecto **NO es**:
+
+-   el dashboard del sistema
+-   el panel administrativo
+-   el backend
+-   el módulo de WhatsApp
+-   el onboarding de la app
+
+Este repositorio solo contiene el **sitio público/marketing**.
+
+------------------------------------------------------------------------
+
+# Stack tecnológico
+
+-   Vue 3
+-   TypeScript
+-   Vite
+-   Vue Router
+-   TailwindCSS
+
+La landing debe mantenerse **ligera, rápida y fácil de mantener**.
+
+------------------------------------------------------------------------
+
+# Público objetivo
+
+Dueños de:
+
+-   estudios de Pilates
+-   estudios de yoga
+-   gimnasios pequeños
+-   negocios fitness que atienden clientes por WhatsApp
+
+Problemas comunes que tienen:
+
+-   responder WhatsApp todo el día
+-   repetir la misma información
+-   perder clientes por tardar en responder
+-   no tener orden en conversaciones
+
+------------------------------------------------------------------------
+
+# Propuesta de valor
+
+FlowEstudio ayuda a:
+
+-   centralizar conversaciones
+-   responder más rápido
+-   automatizar respuestas
+-   organizar el contacto con alumnos
+-   ahorrar tiempo al negocio
+
+------------------------------------------------------------------------
+
+# Estructura esperada del proyecto
+
+src ├─ components │ └─ landing │ ├─ NavbarSection.vue │ ├─
+HeroSection.vue │ ├─ ProblemSection.vue │ ├─ BenefitsSection.vue │ ├─
+HowItWorksSection.vue │ ├─ CTASection.vue │ ├─ FAQSection.vue │ └─
+FooterSection.vue │ ├─ pages │ ├─ HomePage.vue │ ├─ PrivacyPage.vue │ ├─
+TermsPage.vue │ └─ NotFoundPage.vue │ ├─ router │ └─ index.ts │ ├─
+App.vue └─ main.ts
+
+------------------------------------------------------------------------
+
+# Rutas principales
+
+/ → Landing principal /privacy → Política de privacidad /terms →
+Términos de uso
+
+------------------------------------------------------------------------
+
+# Estilo visual esperado
+
+El diseño debe ser:
+
+-   moderno
+-   limpio
+-   estilo SaaS
+-   profesional
+-   fácil de leer
+-   responsive
+
+Evitar:
+
+-   diseños saturados
+-   bloques sin jerarquía
+-   texto excesivo
+
+Preferir:
+
+-   buena tipografía
+-   espaciado generoso
+-   cards limpias
+-   layout claro
+
+------------------------------------------------------------------------
+
+# Copywriting
+
+El tono del texto debe ser:
+
+-   claro
+-   profesional
+-   directo
+-   honesto
+
+Evitar promesas exageradas.
+
+Recordar que el producto está en **fase piloto de validación**.
+
+------------------------------------------------------------------------
+
+# CTA principal
+
+El botón principal del sitio debe decir:
+
+**Probar gratis 6 meses**
+
+Debe dirigir hacia:
+
+app.flowestudio.com/signup
+
+Por ahora puede ser un placeholder.
+
+------------------------------------------------------------------------
+
+# Buenas prácticas
+
+Cuando modifiques este proyecto:
+
+-   no agregar lógica de backend
+-   no agregar autenticación compleja
+-   no mezclar funcionalidades del dashboard
+-   mantener componentes reutilizables
+-   evitar sobreingeniería
+
+------------------------------------------------------------------------
+
+# Próximos pasos del producto
+
+La landing se conecta con:
+
+flowestudio-dashboard flowestudio-backend
+
+Flujo del usuario:
+
+Landing → Signup → Onboarding → Conectar WhatsApp → Activar bot → Usar
+sistema
 
 Landing pública de **FlowEstudio**: sitio comercial para explicar el producto,
 generar interés y convertir visitantes en registros.
