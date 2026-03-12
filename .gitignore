@@ -11,12 +11,16 @@ node_modules
 dist
 dist-ssr
 
+# Firebase CLI
+.firebase/
+
 # Variables de entorno
 # *.local cubre: .env.local, .env.production.local, etc.
 *.local
-# .env y .env.production se ignoran por precaución.
+# Archivos de entorno reales — nunca se commitean.
 # Usa .env.example como referencia (ese sí se commitea).
 .env
+.env.development
 .env.production
 
 # Editor directories and files
