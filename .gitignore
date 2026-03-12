@@ -10,7 +10,14 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+
+# Variables de entorno
+# *.local cubre: .env.local, .env.production.local, etc.
 *.local
+# .env y .env.production se ignoran por precaución.
+# Usa .env.example como referencia (ese sí se commitea).
+.env
+.env.production
 
 # Editor directories and files
 .vscode/*
