@@ -74,7 +74,36 @@ import { SUPPORT_EMAIL } from '../config/env'
         </section>
 
         <section>
-          <h2 class="text-xl font-semibold text-slate-900 mb-3">7. Limitación de responsabilidad</h2>
+          <h2 class="text-xl font-semibold text-slate-900 mb-3">7. Integraciones de terceros</h2>
+          <p>
+            FlowEstudio se integra con la API de WhatsApp Business de Meta para operar
+            el servicio de mensajería. Al utilizar FlowEstudio, reconoces que:
+          </p>
+          <ul class="list-disc pl-5 mt-2 space-y-1 text-slate-600">
+            <li>
+              El uso de WhatsApp Business está sujeto a las
+              <a href="https://www.whatsapp.com/legal/business-policy/" target="_blank" rel="noopener" class="text-indigo-600 hover:text-indigo-700">
+                Políticas para empresas de WhatsApp
+              </a>
+              y a los
+              <a href="https://www.facebook.com/legal/terms/plain_text_terms_of_service" target="_blank" rel="noopener" class="text-indigo-600 hover:text-indigo-700">
+                Términos de servicio de Meta
+              </a>.
+            </li>
+            <li>
+              FlowEstudio no controla la disponibilidad ni los cambios en las APIs de
+              terceros. Interrupciones en dichos servicios no constituyen incumplimiento
+              de FlowEstudio.
+            </li>
+            <li>
+              Eres responsable de cumplir con las políticas de uso de WhatsApp Business
+              al enviar mensajes a través de nuestra plataforma.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-semibold text-slate-900 mb-3">8. Limitación de responsabilidad</h2>
           <p>
             FlowEstudio no se hace responsable por pérdidas de negocio, ingresos o datos
             derivadas del uso o imposibilidad de uso de la plataforma. El servicio se ofrece
@@ -83,7 +112,7 @@ import { SUPPORT_EMAIL } from '../config/env'
         </section>
 
         <section>
-          <h2 class="text-xl font-semibold text-slate-900 mb-3">8. Modificaciones</h2>
+          <h2 class="text-xl font-semibold text-slate-900 mb-3">9. Modificaciones</h2>
           <p>
             Podemos modificar estos términos en cualquier momento. Te notificaremos por
             correo si los cambios son relevantes. El uso continuo de la plataforma implica
@@ -92,7 +121,7 @@ import { SUPPORT_EMAIL } from '../config/env'
         </section>
 
         <section>
-          <h2 class="text-xl font-semibold text-slate-900 mb-3">9. Contacto</h2>
+          <h2 class="text-xl font-semibold text-slate-900 mb-3">10. Contacto</h2>
           <p>
             Para cualquier consulta sobre estos términos, escríbenos a
             <a :href="`mailto:${SUPPORT_EMAIL}`" class="text-indigo-600 hover:text-indigo-700">

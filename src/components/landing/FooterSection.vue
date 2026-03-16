@@ -40,6 +40,12 @@ const year = new Date().getFullYear()
           >
             Términos de uso
           </RouterLink>
+          <RouterLink
+            to="/data-deletion"
+            class="hover:text-slate-200 transition-colors"
+          >
+            Eliminación de datos
+          </RouterLink>
           <a
             :href="LOGIN_URL"
             class="hover:text-slate-200 transition-colors"

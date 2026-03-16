@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '../pages/HomePage.vue'
 import PrivacyPage from '../pages/PrivacyPage.vue'
 import TermsPage from '../pages/TermsPage.vue'
+import DataDeletionPage from '../pages/DataDeletionPage.vue'
 import NotFoundPage from '../pages/NotFoundPage.vue'
 
 const router = createRouter({
@@ -21,6 +22,11 @@ const router = createRouter({
       path: '/terms',
       component: TermsPage,
       meta: { title: 'Términos de uso · FlowEstudio' },
+    },
+    {
+      path: '/data-deletion',
+      component: DataDeletionPage,
+      meta: { title: 'Eliminación de datos · FlowEstudio' },
     },
     {
       path: '/:pathMatch(.*)*',

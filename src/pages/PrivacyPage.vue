@@ -62,7 +62,50 @@ import { SUPPORT_EMAIL } from '../config/env'
         </section>
 
         <section>
-          <h2 class="text-xl font-semibold text-slate-900 mb-3">5. Seguridad</h2>
+          <h2 class="text-xl font-semibold text-slate-900 mb-3">5. Integraciones con terceros</h2>
+          <p>
+            FlowEstudio puede integrarse con servicios de terceros para operar correctamente.
+            Los más relevantes son:
+          </p>
+          <ul class="list-disc pl-5 mt-2 space-y-1 text-slate-600">
+            <li>
+              <strong>Meta / WhatsApp Business Platform:</strong> Para gestionar conversaciones
+              de WhatsApp, FlowEstudio se conecta a la API de WhatsApp Business de Meta.
+              Al conectar tu cuenta de WhatsApp Business, Meta puede acceder a datos de
+              mensajes conforme a sus propias
+              <a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener" class="text-indigo-600 hover:text-indigo-700">
+                políticas de privacidad
+              </a>.
+              No compartimos datos personales de tus alumnos con Meta más allá de lo
+              estrictamente necesario para la operación del servicio.
+            </li>
+            <li>
+              <strong>Servicios de infraestructura:</strong> Utilizamos proveedores de nube
+              para alojar y operar la plataforma. Estos proveedores actúan como encargados
+              del tratamiento de datos bajo nuestras instrucciones.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-semibold text-slate-900 mb-3">6. Cookies y tecnologías similares</h2>
+          <p>
+            FlowEstudio puede utilizar cookies y tecnologías de almacenamiento local para:
+          </p>
+          <ul class="list-disc pl-5 mt-2 space-y-1 text-slate-600">
+            <li>Mantener tu sesión activa mientras usas la plataforma</li>
+            <li>Recordar tus preferencias de configuración</li>
+            <li>Analizar el comportamiento de uso agregado para mejorar el servicio</li>
+          </ul>
+          <p class="mt-3">
+            No utilizamos cookies de seguimiento publicitario. Puedes configurar tu navegador
+            para rechazar cookies, aunque esto puede afectar el funcionamiento de algunas
+            partes de la plataforma.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-semibold text-slate-900 mb-3">7. Seguridad</h2>
           <p>
             Aplicamos medidas técnicas razonables para proteger tu información. Sin embargo,
             ningún sistema es 100% seguro. Te recomendamos usar contraseñas seguras y
@@ -71,7 +114,7 @@ import { SUPPORT_EMAIL } from '../config/env'
         </section>
 
         <section>
-          <h2 class="text-xl font-semibold text-slate-900 mb-3">6. Tus derechos</h2>
+          <h2 class="text-xl font-semibold text-slate-900 mb-3">8. Tus derechos</h2>
           <p>Puedes en cualquier momento:</p>
           <ul class="list-disc pl-5 mt-2 space-y-1 text-slate-600">
             <li>Solicitar acceso a tus datos personales</li>
@@ -87,7 +130,7 @@ import { SUPPORT_EMAIL } from '../config/env'
         </section>
 
         <section>
-          <h2 class="text-xl font-semibold text-slate-900 mb-3">7. Cambios a esta política</h2>
+          <h2 class="text-xl font-semibold text-slate-900 mb-3">9. Cambios a esta política</h2>
           <p>
             Podemos actualizar esta política en cualquier momento. Te notificaremos por correo
             si los cambios son relevantes para el uso de tu cuenta. El uso continuo de la
@@ -96,7 +139,7 @@ import { SUPPORT_EMAIL } from '../config/env'
         </section>
 
         <section>
-          <h2 class="text-xl font-semibold text-slate-900 mb-3">8. Contacto</h2>
+          <h2 class="text-xl font-semibold text-slate-900 mb-3">10. Contacto</h2>
           <p>
             Si tienes preguntas sobre esta política o sobre el manejo de tus datos, contáctanos
             en
