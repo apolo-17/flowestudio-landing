@@ -12,49 +12,49 @@ const features: Feature[] = [
     bgClass: 'bg-indigo-50',
     iconColorClass: 'text-indigo-600',
     icon: 'inbox',
-    title: 'Agenda de clases organizada',
+    title: 'Agenda de clases sin caos',
     description:
-      'Crea, edita y organiza tus clases desde un solo lugar. Horarios claros, sin confusiones, sin doble booking y sin depender de conversaciones por WhatsApp.',
+      'Crea y gestiona tus clases desde un solo lugar. Olvídate de confirmar por WhatsApp: tu agenda es clara, accesible y siempre al día.',
   },
   {
     bgClass: 'bg-emerald-50',
     iconColorClass: 'text-emerald-600',
     icon: 'bot',
-    title: 'Control de asistencia',
+    title: 'Registro de asistencia real',
     description:
-      'Registra quién asistió a cada clase y lleva el historial sin papeles. Sabe en segundos qué alumno falta y detecta quién se está desconectando.',
+      'Lleva el historial de quién asistió a cada clase, sin papeles ni notas. Detecta en segundos qué alumnos se están alejando antes de que se vayan.',
   },
   {
     bgClass: 'bg-violet-50',
     iconColorClass: 'text-violet-600',
     icon: 'flow',
-    title: 'Gestión de clientes',
+    title: 'Clientes y cobros bajo control',
     description:
-      'Todos tus alumnos organizados: datos de contacto, historial de clases, estado de membresía y pagos pendientes en un solo perfil.',
+      'Todos tus alumnos en un solo lugar: datos, historial, membresía activa y pagos pendientes. Sin hojas de cálculo, sin olvidos, sin deuda acumulada.',
   },
   {
     bgClass: 'bg-blue-50',
     iconColorClass: 'text-blue-600',
     icon: 'target',
-    title: 'Comunicación centralizada',
+    title: 'Comunicación sin saltar de app',
     description:
-      'Avisa cambios de horario, confirma clases y coordina con tus alumnos sin saltar entre apps. Menos WhatsApp, más control.',
+      'Coordina avisos, cambios de horario y confirmaciones sin depender del WhatsApp personal. Tu operación comunicada desde la plataforma.',
   },
   {
     bgClass: 'bg-amber-50',
     iconColorClass: 'text-amber-600',
     icon: 'lightning',
-    title: 'Menos errores, más tiempo',
+    title: 'Horas de tu semana de vuelta',
     description:
-      'Con procesos claros y datos en orden, los errores de coordinación y cobro desaparecen solos. Recuperas horas de tu semana.',
+      'Cada proceso que hoy haces a mano toma minutos con FlowEstudio. Menos mensajes, menos errores, más tiempo para lo que importa.',
   },
   {
     bgClass: 'bg-rose-50',
     iconColorClass: 'text-rose-600',
     icon: 'gift',
-    title: 'Acceso anticipado gratuito',
+    title: 'Acceso anticipado sin costo',
     description:
-      'Los primeros estudios que se sumen tienen acceso completo sin costo durante 6 meses. Sin tarjeta de crédito, sin letra chica.',
+      'Los primeros estudios pagan cero durante 6 meses. Acceso completo, sin tarjeta de crédito, sin letra chica. Solo tú y el sistema funcionando.',
   },
 ]
 </script>
@@ -66,11 +66,11 @@ const features: Feature[] = [
       <!-- Header -->
       <div class="text-center max-w-2xl mx-auto mb-14">
         <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-          Una plataforma pensada para la operación real de tu estudio
+          Todo lo que necesitas para operar tu estudio con control
         </h2>
         <p class="text-lg text-slate-600">
-          FlowEstudio reúne todo lo que necesitas para gestionar tu estudio
-          sin depender de WhatsApp, Excel ni de tu memoria.
+          Pasa de WhatsApp y Excel a un sistema real.
+          Todo en un solo lugar, desde el primer día.
         </p>
       </div>
 

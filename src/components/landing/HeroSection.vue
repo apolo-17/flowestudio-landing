@@ -12,18 +12,17 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
           <!-- Badge -->
           <div class="inline-flex items-center gap-2 bg-indigo-50 text-indigo-700 text-sm font-medium px-3.5 py-1.5 rounded-full mb-6 border border-indigo-100">
             <span class="w-2 h-2 bg-indigo-500 rounded-full" style="animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;"></span>
-            Sistema para estudios fitness · Acceso anticipado
+            Pilates · Fitness · Coaches · Acceso anticipado limitado
           </div>
 
           <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight mb-6">
-            Deja de gestionar tu estudio con
-            <span class="text-indigo-600"> WhatsApp y Excel.</span>
+            Deja de gestionar tu estudio de pilates o fitness
+            <span class="text-indigo-600"> con WhatsApp y Excel.</span>
           </h1>
 
           <p class="text-xl text-slate-600 leading-relaxed mb-8">
-            FlowEstudio es la plataforma administrativa que organiza tu agenda,
-            clientes y asistencia en un solo lugar. Sin caos, sin olvidos, sin
-            depender de mensajes.
+            FlowEstudio organiza tu agenda de clases, tus clientes y tus cobros
+            en un solo lugar. Ten control total de tu operación diaria desde el primer día.
           </p>
 
           <!-- CTAs -->
@@ -54,13 +53,17 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
 
           <!-- Trust line -->
           <p class="text-sm text-slate-400 mt-5">
-            Sin tarjeta de crédito · Configuración guiada · Soporte incluido
+            Acceso anticipado limitado · Sin tarjeta de crédito · Soporte incluido
           </p>
         </div>
 
         <!-- Right: mock UI -->
         <!-- TODO: reemplazar por captura real del dashboard (vista de agenda o clientes) -->
         <div class="relative">
+          <!-- Microcopy mockup -->
+          <p class="text-xs font-medium text-slate-400 text-center mb-3 tracking-wide uppercase">
+            Así se ve tu operación diaria organizada
+          </p>
           <!-- Main card -->
           <div class="bg-slate-900 rounded-2xl p-4 shadow-2xl">
             <!-- Browser chrome -->

@@ -29,9 +29,9 @@ const faqs: FAQ[] = [
       'Al finalizar el período de acceso anticipado, te presentaremos los planes disponibles. Si decides no continuar, respetamos tu decisión sin complicaciones. Nuestro objetivo es que sientas el valor real de la plataforma antes de cualquier cobro.',
   },
   {
-    question: '¿FlowEstudio ya está listo para usar?',
+    question: '¿Puedo empezar a usarlo esta semana?',
     answer:
-      'Estamos en una etapa de validación activa. La plataforma es funcional y la mejoramos continuamente con base en el uso real de los estudios que ya la están probando. Por eso este acceso anticipado es tan valioso: tus primeros meses son completamente gratis y tu experiencia ayuda a construir el producto.',
+      'Sí. Agenda una demo, te la mostramos en vivo, y si decides seguir adelante puedes empezar a cargar tus clases y clientes el mismo día. La plataforma es funcional y la mejoramos continuamente. Los primeros meses son completamente gratis, sin ningún compromiso.',
   },
 ]
 

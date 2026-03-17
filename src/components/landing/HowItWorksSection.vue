@@ -48,8 +48,8 @@ const steps: Step[] = [
           Empieza a operar con orden en minutos
         </h2>
         <p class="text-lg text-slate-600">
-          FlowEstudio está diseñado para que cualquier estudio pueda
-          configurarse rápido, sin conocimientos técnicos ni setup complicado.
+          En minutos puedes pasar de desorden a control total.
+          Sin conocimientos técnicos, sin setup complicado:
         </p>
       </div>
 
@@ -158,7 +158,7 @@ const steps: Step[] = [
       <div class="mt-10 text-center">
         <p class="text-sm text-slate-500">
           Nos adaptamos a tu nivel técnico ·
-          <span class="text-slate-600 font-medium">Puedes configurarlo tú o nosotros te ayudamos</span>
+          <span class="text-slate-600 font-medium">Configúralo tú solo o te acompañamos en el proceso</span>
         </p>
       </div>
 

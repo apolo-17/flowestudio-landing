@@ -8,27 +8,27 @@ interface PainPoint {
 const painPoints: PainPoint[] = [
   {
     icon: 'clock',
-    title: 'Tu agenda vive en WhatsApp',
+    title: 'Confirmas clases por WhatsApp, una por una',
     description:
-      'Confirmas clases, reagendas y coordinas horarios por mensaje. Cada cambio es una conversación manual que te roba tiempo todos los días.',
+      'Cada alumno escribe, tú respondes, reagendas, confirmas. Horas de tu semana que se van en mensajes que podría resolver un sistema.',
   },
   {
     icon: 'user-x',
-    title: 'No sabes quién pagó ni quién adeuda',
+    title: 'No sabes quién pagó ni quién te debe',
     description:
-      'El control de cobros está en una hoja, en tu cabeza o en ningún lado. Los pagos pendientes se acumulan sin que nadie los dé seguimiento.',
+      'Llevas los cobros en una hoja, en notas o de memoria. Los pagos pendientes se acumulan y el dinero se escapa sin que lo veas.',
   },
   {
     icon: 'chat',
-    title: 'La asistencia no se registra',
+    title: 'No tienes registro de quién asistió',
     description:
-      'No tienes historial real de quién fue a cada clase. Sin datos no puedes detectar alumnos que se están yendo ni tomar decisiones con información.',
+      'Si no anotas tú, no existe. Sin historial de asistencia no puedes detectar a los alumnos que se están alejando antes de que se vayan.',
   },
   {
     icon: 'phone',
-    title: 'Todo depende de que tú estés disponible',
+    title: 'Si tú no estás, el estudio no funciona',
     description:
-      'Si no estás frente al teléfono, la operación se para. No hay sistema: solo tú gestionando todo por mensaje, todo el tiempo.',
+      'La operación depende completamente de ti. No hay sistema, no hay orden, no hay delegación posible. Solo tú respondiendo todo, siempre.',
   },
 ]
 </script>
@@ -40,11 +40,11 @@ const painPoints: PainPoint[] = [
       <!-- Header -->
       <div class="text-center max-w-2xl mx-auto mb-14">
         <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-          ¿Cuánto tiempo pierdes operando sin un sistema?
+          ¿Te identificas con esto?
         </h2>
         <p class="text-lg text-slate-600">
-          Si tu estudio vive en WhatsApp, Excel y la memoria,
-          estás perdiendo tiempo, clientes y dinero sin darte cuenta.
+          Si hoy operas tu estudio con WhatsApp, Excel o notas,
+          sabes lo complicado que se vuelve:
         </p>
       </div>
 

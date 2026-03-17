@@ -16,14 +16,13 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
       </div>
 
       <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4 leading-tight">
-        Organiza tu estudio desde hoy,<br class="hidden sm:block" />
-        sin complicaciones
+        Empieza a organizar tu estudio hoy
       </h2>
 
       <p class="text-lg text-indigo-100 mb-8 max-w-xl mx-auto leading-relaxed">
-        Estamos en etapa de acceso anticipado. Los primeros estudios que se registren
-        tienen acceso completo de forma gratuita durante 6 meses. Sin costos ocultos,
-        sin compromisos.
+        Agenda una demo y te mostramos cómo funcionaría en tu operación diaria.
+        Los primeros estudios tienen acceso completo gratis durante 6 meses.
+        Sin compromisos, sin costos ocultos.
       </p>
 
       <div class="flex flex-col sm:flex-row gap-3 justify-center">
