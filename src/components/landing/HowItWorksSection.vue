@@ -24,9 +24,9 @@ const steps: Step[] = [
   {
     number: '03',
     icon: 'phone',
-    title: 'Conecta tu WhatsApp',
+    title: 'Conecta tu WhatsApp en minutos',
     description:
-      'Vincula tu número de WhatsApp Business siguiendo el proceso guiado dentro de la plataforma.',
+      'Vincula tu número al estudio con el método que más te acomode. Hay opciones para todos los niveles y te acompañamos si lo necesitas.',
   },
   {
     number: '04',
@@ -142,8 +142,24 @@ const steps: Step[] = [
             </div>
             <h3 class="font-semibold text-slate-900 mb-2">{{ step.title }}</h3>
             <p class="text-sm text-slate-600 leading-relaxed flex-1">{{ step.description }}</p>
+            <!-- Badge exclusivo del paso de conexión WhatsApp -->
+            <div
+              v-if="index === 2"
+              class="mt-3 inline-flex items-center gap-1.5 bg-emerald-50 text-emerald-700 text-xs font-medium px-2.5 py-1 rounded-full border border-emerald-100 self-start"
+            >
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 flex-shrink-0"></span>
+              Configuración automática disponible
+            </div>
           </div>
         </div>
+      </div>
+
+      <!-- Microcopy de flexibilidad -->
+      <div class="mt-10 text-center">
+        <p class="text-sm text-slate-500">
+          Nos adaptamos a tu nivel técnico ·
+          <span class="text-slate-600 font-medium">Puedes configurarlo tú o nosotros te ayudamos</span>
+        </p>
       </div>
 
     </div>
