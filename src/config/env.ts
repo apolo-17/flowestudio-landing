@@ -22,4 +22,4 @@ export const LOGIN_URL = import.meta.env.VITE_LOGIN_URL || `${DASHBOARD_BASE_URL
 
 export const SIGNUP_URL = import.meta.env.VITE_SIGNUP_URL || `${DASHBOARD_BASE_URL}/signup`
 
-export const SUPPORT_EMAIL = import.meta.env.VITE_SUPPORT_EMAIL || 'hola@flowestudio.com'
+export const SUPPORT_EMAIL = import.meta.env.VITE_SUPPORT_EMAIL || 'hola@flowestudioapp.com'

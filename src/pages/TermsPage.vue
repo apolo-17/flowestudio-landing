@@ -125,7 +125,7 @@ import { SUPPORT_EMAIL } from '../config/env'
           <p>
             Para cualquier consulta sobre estos términos, escríbenos a
             <a :href="`mailto:${SUPPORT_EMAIL}`" class="text-indigo-600 hover:text-indigo-700">
-              hola@flowestudio.com
+              {{ SUPPORT_EMAIL }}
             </a>
           </p>
         </section>

@@ -124,7 +124,7 @@ import { SUPPORT_EMAIL } from '../config/env'
           <p class="mt-3">
             Para ejercer cualquiera de estos derechos escríbenos a
             <a :href="`mailto:${SUPPORT_EMAIL}`" class="text-indigo-600 hover:text-indigo-700">
-              hola@flowestudio.com
+              {{ SUPPORT_EMAIL }}
             </a>
           </p>
         </section>
@@ -144,7 +144,7 @@ import { SUPPORT_EMAIL } from '../config/env'
             Si tienes preguntas sobre esta política o sobre el manejo de tus datos, contáctanos
             en
             <a :href="`mailto:${SUPPORT_EMAIL}`" class="text-indigo-600 hover:text-indigo-700">
-              hola@flowestudio.com
+              {{ SUPPORT_EMAIL }}
             </a>
           </p>
         </section>

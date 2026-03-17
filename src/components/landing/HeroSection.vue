@@ -66,7 +66,7 @@ import { SIGNUP_URL } from '../../config/env'
               <div class="w-2.5 h-2.5 rounded-full bg-yellow-400"></div>
               <div class="w-2.5 h-2.5 rounded-full bg-emerald-400"></div>
               <div class="flex-1 mx-3 bg-slate-700 rounded h-5 flex items-center px-3">
-                <span class="text-slate-400 text-xs">app.flowestudio.com</span>
+                <span class="text-slate-400 text-xs">app.flowestudioapp.com</span>
               </div>
             </div>
 
