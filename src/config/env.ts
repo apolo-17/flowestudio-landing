@@ -24,4 +24,4 @@ export const SIGNUP_URL = import.meta.env.VITE_SIGNUP_URL || `${DASHBOARD_BASE_U
 
 export const SUPPORT_EMAIL = import.meta.env.VITE_SUPPORT_EMAIL || 'hola@flowestudioapp.com'
 
-export const WHATSAPP_URL = import.meta.env.VITE_WHATSAPP_URL || 'https://wa.me/521XXXXXXXXXX'
+export const WHATSAPP_URL = import.meta.env.VITE_WHATSAPP_URL || 'https://wa.me/525659424392'
