@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { LOGIN_URL, SIGNUP_URL } from '../../config/env'
+import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
 </script>
 
 <template>
@@ -16,13 +16,14 @@ import { LOGIN_URL, SIGNUP_URL } from '../../config/env'
       </div>
 
       <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4 leading-tight">
-        Únete a los primeros estudios en<br class="hidden sm:block" />
-        probar FlowEstudio
+        Organiza tu estudio desde hoy,<br class="hidden sm:block" />
+        sin complicaciones
       </h2>
 
       <p class="text-lg text-indigo-100 mb-8 max-w-xl mx-auto leading-relaxed">
-        Estamos en una etapa de validación con acceso anticipado completamente
-        gratuito durante 6 meses. Tu experiencia ayuda a construir la plataforma.
+        Estamos en etapa de acceso anticipado. Los primeros estudios que se registren
+        tienen acceso completo de forma gratuita durante 6 meses. Sin costos ocultos,
+        sin compromisos.
       </p>
 
       <div class="flex flex-col sm:flex-row gap-3 justify-center">
@@ -30,21 +31,27 @@ import { LOGIN_URL, SIGNUP_URL } from '../../config/env'
           :href="SIGNUP_URL"
           class="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 text-indigo-700 font-semibold px-7 py-3.5 rounded-xl transition-colors text-base shadow-lg"
         >
-          Quiero probar gratis
+          Agenda tu demo
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
           </svg>
         </a>
         <a
-          :href="LOGIN_URL"
-          class="inline-flex items-center justify-center text-white/80 hover:text-white font-medium px-7 py-3.5 rounded-xl border border-white/20 hover:border-white/40 transition-colors text-base"
+          :href="WHATSAPP_URL"
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center justify-center gap-2 text-white/80 hover:text-white font-medium px-7 py-3.5 rounded-xl border border-white/20 hover:border-white/40 transition-colors text-base"
         >
-          Ya tengo cuenta
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+          </svg>
+          Hablar por WhatsApp
         </a>
       </div>
 
       <p class="text-indigo-200 text-sm mt-6">
-        Sin tarjeta de crédito · Sin compromisos · Puedes cancelar cuando quieras
+        Sin tarjeta de crédito · Sin compromisos · Cancela cuando quieras
       </p>
 
     </div>

@@ -9,19 +9,19 @@ interface FAQ {
 
 const faqs: FAQ[] = [
   {
-    question: '¿Necesito tener WhatsApp Business?',
+    question: '¿Para qué tipo de negocio es FlowEstudio?',
     answer:
-      'Sí, necesitarás un número de WhatsApp Business para conectar tu cuenta. Si aún no lo tienes, es un proceso sencillo y gratuito. Dentro de la plataforma te explicamos paso a paso cómo hacerlo antes de conectarlo.',
+      'FlowEstudio está diseñado para estudios de pilates, coaches de fitness y entrenadores que gestionan grupos de alumnos. Si hoy operas con WhatsApp, Excel o una agenda manual, FlowEstudio te da el control y el orden que necesitas para operar como un negocio real.',
   },
   {
-    question: '¿Puedo probar FlowEstudio gratis?',
+    question: '¿Puedo probarlo gratis?',
     answer:
       'Sí. Estamos en una etapa de acceso anticipado y los primeros estudios que se registren tienen acceso completo de forma gratuita durante 6 meses. No pedimos tarjeta de crédito ni ningún compromiso previo.',
   },
   {
-    question: '¿Tengo que configurar todo desde cero?',
+    question: '¿Necesito conocimientos técnicos para configurarlo?',
     answer:
-      'No. FlowEstudio te guía con un proceso paso a paso para configurar tu estudio. No necesitas conocimientos técnicos ni experiencia previa con herramientas de automatización. Si tienes dudas, estamos disponibles para apoyarte.',
+      'No. FlowEstudio te guía con un proceso paso a paso desde el primer día. Puedes cargar tus clases, registrar alumnos y empezar a operar el mismo día, sin experiencia previa en software de gestión. Si tienes dudas, estamos disponibles para apoyarte.',
   },
   {
     question: '¿Qué pasa después de los 6 meses?',
@@ -29,9 +29,9 @@ const faqs: FAQ[] = [
       'Al finalizar el período de acceso anticipado, te presentaremos los planes disponibles. Si decides no continuar, respetamos tu decisión sin complicaciones. Nuestro objetivo es que sientas el valor real de la plataforma antes de cualquier cobro.',
   },
   {
-    question: '¿FlowEstudio ya está terminado?',
+    question: '¿FlowEstudio ya está listo para usar?',
     answer:
-      'Estamos en una etapa de validación temprana. La plataforma es funcional y seguimos mejorándola activamente con base en el uso real de los estudios que ya la están probando. Por eso este acceso anticipado es tan valioso: tus primeros meses son completamente gratis y tu experiencia ayuda a dar forma al producto.',
+      'Estamos en una etapa de validación activa. La plataforma es funcional y la mejoramos continuamente con base en el uso real de los estudios que ya la están probando. Por eso este acceso anticipado es tan valioso: tus primeros meses son completamente gratis y tu experiencia ayuda a construir el producto.',
   },
 ]
 
@@ -93,7 +93,7 @@ function toggle(index: number) {
         <p class="text-slate-500 text-sm">
           ¿Tienes otra pregunta?
           <a :href="`mailto:${SUPPORT_EMAIL}`" class="text-indigo-600 hover:text-indigo-700 font-medium">
-            Escríbenos directamente
+            {{ SUPPORT_EMAIL }}
           </a>
         </p>
       </div>

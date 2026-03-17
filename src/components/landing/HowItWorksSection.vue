@@ -17,9 +17,9 @@ const steps: Step[] = [
   {
     number: '02',
     icon: 'settings',
-    title: 'Configura tu estudio',
+    title: 'Carga tus clases y clientes',
     description:
-      'Agrega el nombre de tu estudio y personaliza la información básica. Te guiamos en cada paso.',
+      'Agrega tus horarios, crea tus clases y registra a tus alumnos. La plataforma te guía paso a paso desde el primer día.',
   },
   {
     number: '03',
@@ -31,9 +31,9 @@ const steps: Step[] = [
   {
     number: '04',
     icon: 'zap',
-    title: 'Activa tu automatización',
+    title: 'Gestiona desde el primer día',
     description:
-      'Configura tus respuestas automáticas y listo. Tu estudio empieza a atender solo desde ese momento.',
+      'Controla asistencia, da seguimiento a cobros y organiza tu agenda desde una sola plataforma. Sin hojas, sin mensajes, sin caos.',
   },
 ]
 </script>
@@ -45,11 +45,11 @@ const steps: Step[] = [
       <!-- Header -->
       <div class="text-center max-w-2xl mx-auto mb-14">
         <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-          Empieza en minutos, sin complicaciones
+          Empieza a operar con orden en minutos
         </h2>
         <p class="text-lg text-slate-600">
           FlowEstudio está diseñado para que cualquier estudio pueda
-          configurarse rápido, sin necesitar conocimientos técnicos.
+          configurarse rápido, sin conocimientos técnicos ni setup complicado.
         </p>
       </div>
 

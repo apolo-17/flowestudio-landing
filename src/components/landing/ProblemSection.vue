@@ -8,27 +8,27 @@ interface PainPoint {
 const painPoints: PainPoint[] = [
   {
     icon: 'clock',
-    title: 'Pasas horas respondiendo lo mismo',
+    title: 'Tu agenda vive en WhatsApp',
     description:
-      'Horarios, precios, disponibilidad. Las mismas preguntas todos los días, una y otra vez.',
+      'Confirmas clases, reagendas y coordinas horarios por mensaje. Cada cambio es una conversación manual que te roba tiempo todos los días.',
   },
   {
     icon: 'user-x',
-    title: 'Pierdes clientes por tardar en responder',
+    title: 'No sabes quién pagó ni quién adeuda',
     description:
-      'Un interesado que no recibe respuesta rápida busca otro estudio. El tiempo importa más de lo que crees.',
+      'El control de cobros está en una hoja, en tu cabeza o en ningún lado. Los pagos pendientes se acumulan sin que nadie los dé seguimiento.',
   },
   {
     icon: 'chat',
-    title: 'Las conversaciones se pierden o se desordenan',
+    title: 'La asistencia no se registra',
     description:
-      'Sin un sistema claro, es fácil olvidar un seguimiento o perder el hilo de una conversación importante.',
+      'No tienes historial real de quién fue a cada clase. Sin datos no puedes detectar alumnos que se están yendo ni tomar decisiones con información.',
   },
   {
     icon: 'phone',
     title: 'Todo depende de que tú estés disponible',
     description:
-      'Si no estás frente al teléfono, el estudio deja de responder. Y eso tiene un costo silencioso.',
+      'Si no estás frente al teléfono, la operación se para. No hay sistema: solo tú gestionando todo por mensaje, todo el tiempo.',
   },
 ]
 </script>
@@ -40,11 +40,11 @@ const painPoints: PainPoint[] = [
       <!-- Header -->
       <div class="text-center max-w-2xl mx-auto mb-14">
         <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-          ¿Cuánto tiempo pierdes respondiendo WhatsApp?
+          ¿Cuánto tiempo pierdes operando sin un sistema?
         </h2>
         <p class="text-lg text-slate-600">
-          El WhatsApp de tu estudio nunca para. Y atender cada mensaje a mano
-          tiene un costo real en tiempo y en clientes perdidos.
+          Si tu estudio vive en WhatsApp, Excel y la memoria,
+          estás perdiendo tiempo, clientes y dinero sin darte cuenta.
         </p>
       </div>
 

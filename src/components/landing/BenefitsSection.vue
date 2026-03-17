@@ -12,49 +12,49 @@ const features: Feature[] = [
     bgClass: 'bg-indigo-50',
     iconColorClass: 'text-indigo-600',
     icon: 'inbox',
-    title: 'Centraliza todas tus conversaciones',
+    title: 'Agenda de clases organizada',
     description:
-      'Todas las conversaciones de WhatsApp en un solo lugar. Sin perder mensajes, sin desorden, sin cambiar de app.',
+      'Crea, edita y organiza tus clases desde un solo lugar. Horarios claros, sin confusiones, sin doble booking y sin depender de conversaciones por WhatsApp.',
   },
   {
     bgClass: 'bg-emerald-50',
     iconColorClass: 'text-emerald-600',
     icon: 'bot',
-    title: 'Automatiza respuestas comunes',
+    title: 'Control de asistencia',
     description:
-      'Configura respuestas para las preguntas más frecuentes y atiende 24/7 sin estar siempre disponible.',
+      'Registra quién asistió a cada clase y lleva el historial sin papeles. Sabe en segundos qué alumno falta y detecta quién se está desconectando.',
   },
   {
     bgClass: 'bg-violet-50',
     iconColorClass: 'text-violet-600',
     icon: 'flow',
-    title: 'Prepara flujos de atención',
+    title: 'Gestión de clientes',
     description:
-      'Define cómo quieres que tu estudio responda, paso a paso. Sin conocimientos técnicos ni programación.',
+      'Todos tus alumnos organizados: datos de contacto, historial de clases, estado de membresía y pagos pendientes en un solo perfil.',
   },
   {
     bgClass: 'bg-blue-50',
     iconColorClass: 'text-blue-600',
     icon: 'target',
-    title: 'Da seguimiento a interesados',
+    title: 'Comunicación centralizada',
     description:
-      'Registra y sigue cada conversación relevante. No dejes ir a ningún prospecto por falta de seguimiento.',
+      'Avisa cambios de horario, confirma clases y coordina con tus alumnos sin saltar entre apps. Menos WhatsApp, más control.',
   },
   {
     bgClass: 'bg-amber-50',
     iconColorClass: 'text-amber-600',
     icon: 'lightning',
-    title: 'Ahorra tiempo real',
+    title: 'Menos errores, más tiempo',
     description:
-      'Menos tiempo respondiendo mensajes significa más energía para tus alumnos y para hacer crecer tu estudio.',
+      'Con procesos claros y datos en orden, los errores de coordinación y cobro desaparecen solos. Recuperas horas de tu semana.',
   },
   {
     bgClass: 'bg-rose-50',
     iconColorClass: 'text-rose-600',
     icon: 'gift',
-    title: 'Acceso gratuito por 6 meses',
+    title: 'Acceso anticipado gratuito',
     description:
-      'Únete ahora como parte de la etapa de acceso anticipado y prueba FlowEstudio completo sin costo.',
+      'Los primeros estudios que se sumen tienen acceso completo sin costo durante 6 meses. Sin tarjeta de crédito, sin letra chica.',
   },
 ]
 </script>
@@ -66,11 +66,11 @@ const features: Feature[] = [
       <!-- Header -->
       <div class="text-center max-w-2xl mx-auto mb-14">
         <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-          Una plataforma pensada para estudios como el tuyo
+          Una plataforma pensada para la operación real de tu estudio
         </h2>
         <p class="text-lg text-slate-600">
-          FlowEstudio reúne todo lo que necesitas para atender mejor a tus
-          alumnos e interesados sin trabajar más horas.
+          FlowEstudio reúne todo lo que necesitas para gestionar tu estudio
+          sin depender de WhatsApp, Excel ni de tu memoria.
         </p>
       </div>
 
@@ -98,7 +98,7 @@ const features: Feature[] = [
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
+                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
               />
             </svg>
             <!-- Bot -->
@@ -114,7 +114,7 @@ const features: Feature[] = [
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17H3a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v10a2 2 0 01-2 2h-2"
+                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"
               />
             </svg>
             <!-- Flow -->
@@ -130,7 +130,7 @@ const features: Feature[] = [
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
+                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"
               />
             </svg>
             <!-- Target -->
@@ -146,7 +146,7 @@ const features: Feature[] = [
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
               />
             </svg>
             <!-- Lightning -->
