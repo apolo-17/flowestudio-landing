@@ -21,8 +21,8 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
           </h1>
 
           <p class="text-xl text-slate-600 leading-relaxed mb-8">
-            FlowEstudio organiza tu agenda de clases, tus clientes y tus cobros
-            en un solo lugar. Ten control total de tu operación diaria desde el primer día.
+            FlowEstudio centraliza tu agenda de clases, tus alumnos y las conversaciones
+            de WhatsApp en una sola plataforma. Opera con orden desde el primer día.
           </p>
 
           <!-- CTAs -->

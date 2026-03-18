@@ -50,7 +50,7 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
       </div>
 
       <p class="text-indigo-200 text-sm mt-6">
-        Sin tarjeta de crédito · Sin compromisos · Cancela cuando quieras
+        Sin tarjeta de crédito · Sin compromisos · Estamos en acceso anticipado y seguimos mejorando junto con los primeros estudios
       </p>
 
     </div>

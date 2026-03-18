@@ -14,9 +14,9 @@ const painPoints: PainPoint[] = [
   },
   {
     icon: 'user-x',
-    title: 'No sabes quién pagó ni quién te debe',
+    title: 'El seguimiento de alumnos vive en tu cabeza',
     description:
-      'Llevas los cobros en una hoja, en notas o de memoria. Los pagos pendientes se acumulan y el dinero se escapa sin que lo veas.',
+      'No sabes quién está activo, quién lleva semanas sin aparecer ni a quién hay que contactar. La información está repartida en mensajes y notas que solo tú entiendes.',
   },
   {
     icon: 'chat',

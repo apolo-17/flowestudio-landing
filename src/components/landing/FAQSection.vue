@@ -29,9 +29,9 @@ const faqs: FAQ[] = [
       'Al finalizar el período de acceso anticipado, te presentaremos los planes disponibles. Si decides no continuar, respetamos tu decisión sin complicaciones. Nuestro objetivo es que sientas el valor real de la plataforma antes de cualquier cobro.',
   },
   {
-    question: '¿Puedo empezar a usarlo esta semana?',
+    question: '¿Cómo funciona la integración con WhatsApp?',
     answer:
-      'Sí. Agenda una demo, te la mostramos en vivo, y si decides seguir adelante puedes empezar a cargar tus clases y clientes el mismo día. La plataforma es funcional y la mejoramos continuamente. Los primeros meses son completamente gratis, sin ningún compromiso.',
+      'Conectas tu número de WhatsApp Business al sistema. Desde el dashboard puedes ver las conversaciones centralizadas, activar respuestas automáticas básicas para preguntas frecuentes y dar seguimiento a tus alumnos. Cuando lo necesitas, retomas la atención de forma manual desde el mismo lugar, sin perder el hilo.',
   },
 ]
 

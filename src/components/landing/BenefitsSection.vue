@@ -28,17 +28,17 @@ const features: Feature[] = [
     bgClass: 'bg-violet-50',
     iconColorClass: 'text-violet-600',
     icon: 'flow',
-    title: 'Clientes y cobros bajo control',
+    title: 'Gestión de alumnos centralizada',
     description:
-      'Todos tus alumnos en un solo lugar: datos, historial, membresía activa y pagos pendientes. Sin hojas de cálculo, sin olvidos, sin deuda acumulada.',
+      'Todos tus alumnos en un solo lugar: datos, historial de asistencia, clases activas y conversaciones. Sin hojas de cálculo, con seguimiento real.',
   },
   {
     bgClass: 'bg-blue-50',
     iconColorClass: 'text-blue-600',
     icon: 'target',
-    title: 'Comunicación sin saltar de app',
+    title: 'WhatsApp conectado a tu operación',
     description:
-      'Coordina avisos, cambios de horario y confirmaciones sin depender del WhatsApp personal. Tu operación comunicada desde la plataforma.',
+      'Conecta tu WhatsApp Business al estudio. Responde desde el dashboard, activa respuestas automáticas básicas y mantén el historial de cada alumno en un solo lugar.',
   },
   {
     bgClass: 'bg-amber-50',
