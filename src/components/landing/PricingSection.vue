@@ -4,10 +4,7 @@ import { SIGNUP_URL } from '../../config/env'
 interface Plan {
   name: string
   price: string
-  period: string
-  description: string
-  features: string[]
-  cta: string
+  conversations: string
   highlighted: boolean
   badge?: string
 }
@@ -15,50 +12,21 @@ interface Plan {
 const plans: Plan[] = [
   {
     name: 'Starter',
-    price: '$699',
-    period: 'MXN / mes',
-    description: 'Para estudios pequeños que quieren empezar a automatizar.',
-    features: [
-      'Hasta 300 conversaciones/mes',
-      '1 número de WhatsApp',
-      'Agenda y gestión de clases',
-      'Registro de alumnos y asistencia',
-      'Soporte por email',
-    ],
-    cta: 'Empezar gratis',
+    price: '$699 MXN',
+    conversations: '200 conversaciones',
     highlighted: false,
   },
   {
     name: 'Growth',
-    price: '$1,199',
-    period: 'MXN / mes',
-    description: 'Para estudios en crecimiento que quieren llenar clases automáticamente.',
-    features: [
-      'Hasta 1,000 conversaciones/mes',
-      '1 número de WhatsApp',
-      'Confirmaciones y reservas automáticas',
-      'Seguimiento de cobros y pagos',
-      'Recordatorios automáticos',
-      'Soporte prioritario',
-    ],
-    cta: 'Empezar gratis',
+    price: '$1,199 MXN',
+    conversations: '600 conversaciones',
     highlighted: true,
     badge: 'Más popular',
   },
   {
     name: 'Pro',
-    price: '$1,999',
-    period: 'MXN / mes',
-    description: 'Para estudios con alto volumen que necesitan control total.',
-    features: [
-      'Conversaciones ilimitadas',
-      'Hasta 2 números de WhatsApp',
-      'Automatizaciones avanzadas',
-      'Reportes y analítica',
-      'Exportación de datos',
-      'Soporte dedicado',
-    ],
-    cta: 'Empezar gratis',
+    price: '$1,999 MXN',
+    conversations: '1500 conversaciones',
     highlighted: false,
   },
 ]
@@ -74,7 +42,7 @@ const plans: Plan[] = [
           Planes diseñados para pagarse solos
         </h2>
         <p class="text-lg text-slate-600">
-          Con recuperar 3–5 alumnos al mes, el sistema se paga solo.
+          Con recuperar 3–5 alumnos al mes, el sistema se paga solo
         </p>
       </div>
 
@@ -105,26 +73,20 @@ const plans: Plan[] = [
           </p>
 
           <!-- Price -->
-          <div class="flex items-end gap-1.5 mb-1">
+          <div class="mb-2">
             <span
               class="text-4xl font-extrabold leading-none"
               :class="plan.highlighted ? 'text-white' : 'text-slate-900'"
             >
               {{ plan.price }}
             </span>
-            <span
-              class="text-sm mb-1 leading-tight"
-              :class="plan.highlighted ? 'text-indigo-200' : 'text-slate-400'"
-            >
-              {{ plan.period }}
-            </span>
           </div>
 
           <p
-            class="text-sm leading-relaxed mb-6"
-            :class="plan.highlighted ? 'text-indigo-100' : 'text-slate-500'"
+            class="text-base leading-relaxed mb-6"
+            :class="plan.highlighted ? 'text-indigo-100' : 'text-slate-600'"
           >
-            {{ plan.description }}
+            {{ plan.conversations }}
           </p>
 
           <!-- CTA -->
@@ -135,7 +97,7 @@ const plans: Plan[] = [
               ? 'bg-white text-indigo-700 hover:bg-slate-50'
               : 'bg-indigo-600 text-white hover:bg-indigo-700'"
           >
-            {{ plan.cta }}
+            Probar gratis 7 días
           </a>
 
           <!-- Divider -->
@@ -144,13 +106,8 @@ const plans: Plan[] = [
             :class="plan.highlighted ? 'border-indigo-500' : 'border-slate-100'"
           ></div>
 
-          <!-- Features -->
-          <ul class="space-y-3">
-            <li
-              v-for="(feature, fi) in plan.features"
-              :key="fi"
-              class="flex items-start gap-2.5 text-sm"
-            >
+          <div class="space-y-3">
+            <div class="flex items-start gap-2.5 text-sm">
               <svg
                 class="w-4 h-4 flex-shrink-0 mt-0.5"
                 :class="plan.highlighted ? 'text-indigo-200' : 'text-indigo-500'"
@@ -161,16 +118,30 @@ const plans: Plan[] = [
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
               </svg>
               <span :class="plan.highlighted ? 'text-indigo-100' : 'text-slate-600'">
-                {{ feature }}
+                Incluye automatización de reservas y recordatorios
               </span>
-            </li>
-          </ul>
+            </div>
+            <div class="flex items-start gap-2.5 text-sm">
+              <svg
+                class="w-4 h-4 flex-shrink-0 mt-0.5"
+                :class="plan.highlighted ? 'text-indigo-200' : 'text-indigo-500'"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+              </svg>
+              <span :class="plan.highlighted ? 'text-indigo-100' : 'text-slate-600'">
+                Dashboard centralizado para tu operación diaria
+              </span>
+            </div>
+          </div>
         </div>
       </div>
 
       <!-- Footer note -->
-      <p class="text-center text-slate-400 text-sm mt-10">
-        Todos los planes incluyen 7 días gratis · Sin tarjeta de crédito · Cancela cuando quieras
+      <p class="text-center text-slate-500 text-sm mt-10">
+        Conversaciones extra desde $1 MXN
       </p>
 
     </div>

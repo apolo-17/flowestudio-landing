@@ -17,11 +17,11 @@ import { SIGNUP_URL } from '../../config/env'
 
           <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight mb-6">
             Llena tus clases automáticamente
-            <span class="text-indigo-600"> desde WhatsApp.</span>
+            <span class="text-indigo-600"> desde WhatsApp</span>
           </h1>
 
           <p class="text-xl text-slate-600 leading-relaxed mb-8">
-            Reduce faltas, confirma alumnos y cobra sin esfuerzo.
+            Tus alumnos reservan, confirman y reciben recordatorios sin que tengas que escribirles uno por uno.
             Todo desde una sola pantalla.
           </p>
 
@@ -51,7 +51,7 @@ import { SIGNUP_URL } from '../../config/env'
 
           <!-- Trust line -->
           <p class="text-sm text-slate-400 mt-5">
-            Sin tarjeta de crédito · Sin compromisos · Soporte incluido
+            Sin tarjeta · Configuración en minutos
           </p>
         </div>
 

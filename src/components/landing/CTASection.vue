@@ -16,13 +16,12 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
       </div>
 
       <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4 leading-tight">
-        Empieza gratis y llena tus clases automáticamente
+        Empieza a llenar tus clases automáticamente desde hoy
       </h2>
 
       <p class="text-lg text-indigo-100 mb-8 max-w-xl mx-auto leading-relaxed">
-        7 días para probarlo con tu operación real.
-        Sin demo obligatoria, sin tarjeta de crédito, sin letra chica.
-        Solo tú, tus alumnos y el sistema funcionando desde el primer día.
+        Activa tu prueba gratis, conecta tu operación y empieza a automatizar reservas,
+        confirmaciones y recordatorios desde una sola pantalla.
       </p>
 
       <div class="flex flex-col sm:flex-row gap-3 justify-center">
@@ -50,7 +49,7 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
       </div>
 
       <p class="text-indigo-200 text-sm mt-6">
-        Sin tarjeta de crédito · Sin demo obligatoria · Cancela cuando quieras
+        Sin tarjeta de crédito · Configuración en minutos · Cancela cuando quieras
       </p>
 
     </div>

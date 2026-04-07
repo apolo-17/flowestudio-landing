@@ -12,7 +12,7 @@ const features: Feature[] = [
     bgClass: 'bg-indigo-50',
     iconColorClass: 'text-indigo-600',
     icon: 'inbox',
-    title: 'Tus clases siempre llenas, sin confirmar uno a uno',
+    title: 'Tus clases siempre llenas, sin confirmar una por una',
     description:
       'Crea y gestiona tus clases desde un solo lugar. Olvídate de confirmar por WhatsApp: tu agenda se llena automáticamente.',
   },
@@ -20,7 +20,7 @@ const features: Feature[] = [
     bgClass: 'bg-emerald-50',
     iconColorClass: 'text-emerald-600',
     icon: 'bot',
-    title: 'Sabe quién falta antes de que deje de ir',
+    title: 'Detecta quién está dejando de ir antes de perderlo',
     description:
       'Lleva el historial de quién asistió a cada clase, sin papeles ni notas. Detecta en segundos qué alumnos se están alejando antes de que se vayan.',
   },

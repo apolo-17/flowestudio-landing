@@ -16,13 +16,12 @@
 
           <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4 leading-tight">
             Tus alumnos reservan por WhatsApp.<br />
-            <span class="text-emerald-600">El sistema confirma solo.</span>
+            <span class="text-emerald-600">El sistema hace todo lo demás.</span>
           </h2>
 
           <p class="text-lg text-slate-600 mb-8 leading-relaxed">
-            Tus alumnos ya usan WhatsApp para preguntar y reservar. FlowEstudio
-            responde por ti, confirma automáticamente y llena tus clases
-            sin que toques el celular.
+            Confirma asistencia, envía recordatorios y llena tus clases automáticamente.
+            Sin estar pegado al celular.
           </p>
 
           <ul class="space-y-4">
@@ -33,8 +32,8 @@
                 </svg>
               </div>
               <div>
-                <p class="font-semibold text-slate-900 text-sm">Reservas confirmadas sin intervención</p>
-                <p class="text-slate-600 text-sm mt-0.5">El alumno escribe, el sistema confirma, la clase se llena. Tú solo ves el resultado.</p>
+                <p class="font-semibold text-slate-900 text-sm">Reservas automáticas</p>
+                <p class="text-slate-600 text-sm mt-0.5">El alumno escribe, el sistema registra la reserva y tú ves la clase organizada en tu dashboard.</p>
               </div>
             </li>
             <li class="flex items-start gap-3">
@@ -44,8 +43,8 @@
                 </svg>
               </div>
               <div>
-                <p class="font-semibold text-slate-900 text-sm">Horarios y disponibilidad automáticos</p>
-                <p class="text-slate-600 text-sm mt-0.5">¿Hay lugar? ¿A qué hora? ¿Cuánto cuesta? El bot responde las mismas preguntas de siempre, sin que lo hagas tú.</p>
+                <p class="font-semibold text-slate-900 text-sm">Confirmaciones sin intervención</p>
+                <p class="text-slate-600 text-sm mt-0.5">FlowEstudio responde por ti para confirmar asistencia sin que tengas que contestar uno por uno.</p>
               </div>
             </li>
             <li class="flex items-start gap-3">
@@ -55,8 +54,8 @@
                 </svg>
               </div>
               <div>
-                <p class="font-semibold text-slate-900 text-sm">Conversación como interfaz</p>
-                <p class="text-slate-600 text-sm mt-0.5">Tus alumnos no aprenden una app nueva. Solo escriben como siempre, y el sistema hace el resto.</p>
+                <p class="font-semibold text-slate-900 text-sm">Recordatorios que reducen faltas</p>
+                <p class="text-slate-600 text-sm mt-0.5">Los recordatorios salen a tiempo para que más alumnos lleguen a clase y menos lugares se pierdan.</p>
               </div>
             </li>
             <li class="flex items-start gap-3">
@@ -66,8 +65,8 @@
                 </svg>
               </div>
               <div>
-                <p class="font-semibold text-slate-900 text-sm">Tú intervenes cuando importa</p>
-                <p class="text-slate-600 text-sm mt-0.5">El bot maneja lo rutinario. Cuando una conversación lo requiere, retomas el control desde el dashboard sin perder el hilo.</p>
+                <p class="font-semibold text-slate-900 text-sm">Conversaciones organizadas</p>
+                <p class="text-slate-600 text-sm mt-0.5">Todo queda centralizado para que sepas quién escribió, qué pidió y qué seguimiento necesita.</p>
               </div>
             </li>
           </ul>
