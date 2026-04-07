@@ -12,15 +12,15 @@ const features: Feature[] = [
     bgClass: 'bg-indigo-50',
     iconColorClass: 'text-indigo-600',
     icon: 'inbox',
-    title: 'Agenda de clases sin caos',
+    title: 'Tus clases siempre llenas, sin confirmar uno a uno',
     description:
-      'Crea y gestiona tus clases desde un solo lugar. Olvídate de confirmar por WhatsApp: tu agenda es clara, accesible y siempre al día.',
+      'Crea y gestiona tus clases desde un solo lugar. Olvídate de confirmar por WhatsApp: tu agenda se llena automáticamente.',
   },
   {
     bgClass: 'bg-emerald-50',
     iconColorClass: 'text-emerald-600',
     icon: 'bot',
-    title: 'Registro de asistencia real',
+    title: 'Sabe quién falta antes de que deje de ir',
     description:
       'Lleva el historial de quién asistió a cada clase, sin papeles ni notas. Detecta en segundos qué alumnos se están alejando antes de que se vayan.',
   },
@@ -28,23 +28,23 @@ const features: Feature[] = [
     bgClass: 'bg-violet-50',
     iconColorClass: 'text-violet-600',
     icon: 'flow',
-    title: 'Gestión de alumnos centralizada',
+    title: 'Deja de perseguir alumnos por WhatsApp',
     description:
-      'Todos tus alumnos en un solo lugar: datos, historial de asistencia, clases activas y conversaciones. Sin hojas de cálculo, con seguimiento real.',
+      'Todos tus alumnos en un solo lugar: datos, historial, clases activas y conversaciones. Sin hojas de cálculo, con seguimiento automático.',
   },
   {
     bgClass: 'bg-blue-50',
     iconColorClass: 'text-blue-600',
     icon: 'target',
-    title: 'WhatsApp conectado a tu operación',
+    title: 'Confirmaciones automáticas, sin tocar el celular',
     description:
-      'Conecta tu WhatsApp Business al estudio. Responde desde el dashboard, activa respuestas automáticas básicas y mantén el historial de cada alumno en un solo lugar.',
+      'El sistema responde, confirma y registra reservas por WhatsApp. Tú solo abres el dashboard y ves tus clases llenas.',
   },
   {
     bgClass: 'bg-amber-50',
     iconColorClass: 'text-amber-600',
     icon: 'lightning',
-    title: 'Horas de tu semana de vuelta',
+    title: 'Recupera horas que hoy pierdes en mensajes',
     description:
       'Cada proceso que hoy haces a mano toma minutos con FlowEstudio. Menos mensajes, menos errores, más tiempo para lo que importa.',
   },
@@ -52,9 +52,9 @@ const features: Feature[] = [
     bgClass: 'bg-rose-50',
     iconColorClass: 'text-rose-600',
     icon: 'gift',
-    title: 'Acceso anticipado sin costo',
+    title: 'Prueba 7 días gratis, sin compromisos',
     description:
-      'Los primeros estudios pagan cero durante 6 meses. Acceso completo, sin tarjeta de crédito, sin letra chica. Solo tú y el sistema funcionando.',
+      'Acceso completo desde el primer día. Sin tarjeta de crédito, sin letra chica. Si no te convence, no pagas nada.',
   },
 ]
 </script>

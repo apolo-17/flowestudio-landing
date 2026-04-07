@@ -15,13 +15,14 @@
           </div>
 
           <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4 leading-tight">
-            Gestiona a tus alumnos<br />
-            <span class="text-emerald-600">desde WhatsApp</span>
+            Tus alumnos reservan por WhatsApp.<br />
+            <span class="text-emerald-600">El sistema confirma solo.</span>
           </h2>
 
           <p class="text-lg text-slate-600 mb-8 leading-relaxed">
-            WhatsApp es donde vive tu operación hoy. FlowEstudio lo conecta a tu dashboard
-            para que dejes de gestionar todo desde el celular personal y tengas control real.
+            Tus alumnos ya usan WhatsApp para preguntar y reservar. FlowEstudio
+            responde por ti, confirma automáticamente y llena tus clases
+            sin que toques el celular.
           </p>
 
           <ul class="space-y-4">
@@ -32,8 +33,8 @@
                 </svg>
               </div>
               <div>
-                <p class="font-semibold text-slate-900 text-sm">Conecta tu WhatsApp Business</p>
-                <p class="text-slate-600 text-sm mt-0.5">Vincula tu número y centraliza todas las conversaciones en un solo lugar.</p>
+                <p class="font-semibold text-slate-900 text-sm">Reservas confirmadas sin intervención</p>
+                <p class="text-slate-600 text-sm mt-0.5">El alumno escribe, el sistema confirma, la clase se llena. Tú solo ves el resultado.</p>
               </div>
             </li>
             <li class="flex items-start gap-3">
@@ -43,8 +44,8 @@
                 </svg>
               </div>
               <div>
-                <p class="font-semibold text-slate-900 text-sm">Automatiza respuestas básicas</p>
-                <p class="text-slate-600 text-sm mt-0.5">Horarios, disponibilidad y preguntas frecuentes sin que tengas que responder cada vez.</p>
+                <p class="font-semibold text-slate-900 text-sm">Horarios y disponibilidad automáticos</p>
+                <p class="text-slate-600 text-sm mt-0.5">¿Hay lugar? ¿A qué hora? ¿Cuánto cuesta? El bot responde las mismas preguntas de siempre, sin que lo hagas tú.</p>
               </div>
             </li>
             <li class="flex items-start gap-3">
@@ -54,8 +55,8 @@
                 </svg>
               </div>
               <div>
-                <p class="font-semibold text-slate-900 text-sm">Seguimiento desde el dashboard</p>
-                <p class="text-slate-600 text-sm mt-0.5">Ve el historial de conversaciones de cada alumno junto con su asistencia y clases activas.</p>
+                <p class="font-semibold text-slate-900 text-sm">Conversación como interfaz</p>
+                <p class="text-slate-600 text-sm mt-0.5">Tus alumnos no aprenden una app nueva. Solo escriben como siempre, y el sistema hace el resto.</p>
               </div>
             </li>
             <li class="flex items-start gap-3">
@@ -65,8 +66,8 @@
                 </svg>
               </div>
               <div>
-                <p class="font-semibold text-slate-900 text-sm">Escala a atención humana cuando lo necesitas</p>
-                <p class="text-slate-600 text-sm mt-0.5">El bot maneja lo rutinario. Tú tomas el control cuando la conversación lo requiere.</p>
+                <p class="font-semibold text-slate-900 text-sm">Tú intervenes cuando importa</p>
+                <p class="text-slate-600 text-sm mt-0.5">El bot maneja lo rutinario. Cuando una conversación lo requiere, retomas el control desde el dashboard sin perder el hilo.</p>
               </div>
             </li>
           </ul>

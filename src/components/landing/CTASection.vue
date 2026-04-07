@@ -16,13 +16,13 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
       </div>
 
       <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4 leading-tight">
-        Empieza a organizar tu estudio hoy
+        Empieza gratis y llena tus clases automáticamente
       </h2>
 
       <p class="text-lg text-indigo-100 mb-8 max-w-xl mx-auto leading-relaxed">
-        Agenda una demo y te mostramos cómo funcionaría en tu operación diaria.
-        Los primeros estudios tienen acceso completo gratis durante 6 meses.
-        Sin compromisos, sin costos ocultos.
+        7 días para probarlo con tu operación real.
+        Sin demo obligatoria, sin tarjeta de crédito, sin letra chica.
+        Solo tú, tus alumnos y el sistema funcionando desde el primer día.
       </p>
 
       <div class="flex flex-col sm:flex-row gap-3 justify-center">
@@ -30,7 +30,7 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
           :href="SIGNUP_URL"
           class="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 text-indigo-700 font-semibold px-7 py-3.5 rounded-xl transition-colors text-base shadow-lg"
         >
-          Agenda tu demo
+          Probar gratis 7 días
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
           </svg>
@@ -50,7 +50,7 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
       </div>
 
       <p class="text-indigo-200 text-sm mt-6">
-        Sin tarjeta de crédito · Sin compromisos · Estamos en acceso anticipado y seguimos mejorando junto con los primeros estudios
+        Sin tarjeta de crédito · Sin demo obligatoria · Cancela cuando quieras
       </p>
 
     </div>

@@ -12,17 +12,17 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
           <!-- Badge -->
           <div class="inline-flex items-center gap-2 bg-indigo-50 text-indigo-700 text-sm font-medium px-3.5 py-1.5 rounded-full mb-6 border border-indigo-100">
             <span class="w-2 h-2 bg-indigo-500 rounded-full" style="animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;"></span>
-            Pilates · Fitness · Coaches · Acceso anticipado limitado
+            Pilates · Fitness · Coaches · 7 días gratis
           </div>
 
           <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight mb-6">
-            Deja de gestionar tu estudio de pilates o fitness
-            <span class="text-indigo-600"> con WhatsApp y Excel.</span>
+            Llena tus clases automáticamente
+            <span class="text-indigo-600"> desde WhatsApp.</span>
           </h1>
 
           <p class="text-xl text-slate-600 leading-relaxed mb-8">
-            FlowEstudio centraliza tu agenda de clases, tus alumnos y las conversaciones
-            de WhatsApp en una sola plataforma. Opera con orden desde el primer día.
+            Reduce faltas, confirma alumnos y cobra sin esfuerzo.
+            Todo desde una sola pantalla.
           </p>
 
           <!-- CTAs -->
@@ -32,28 +32,26 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
               class="inline-flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-3.5 rounded-xl transition-colors text-base"
               style="box-shadow: 0 4px 14px rgba(79, 70, 229, 0.25);"
             >
-              Agenda una demo
+              Probar gratis 7 días
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </a>
             <a
-              :href="WHATSAPP_URL"
-              target="_blank"
-              rel="noopener"
+              href="#how-it-works"
               class="inline-flex items-center justify-center gap-2 text-slate-700 hover:text-slate-900 font-semibold px-6 py-3.5 rounded-xl border border-slate-200 hover:border-slate-300 hover:bg-slate-50 transition-colors text-base"
             >
               <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              Hablar por WhatsApp
+              Ver cómo funciona
             </a>
           </div>
 
           <!-- Trust line -->
           <p class="text-sm text-slate-400 mt-5">
-            Acceso anticipado limitado · Sin tarjeta de crédito · Soporte incluido
+            Sin tarjeta de crédito · Sin compromisos · Soporte incluido
           </p>
         </div>
 
@@ -62,7 +60,7 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
         <div class="relative">
           <!-- Microcopy mockup -->
           <p class="text-xs font-medium text-slate-400 text-center mb-3 tracking-wide uppercase">
-            Así se ve tu operación diaria organizada
+            Así se llenan tus clases automáticamente
           </p>
           <!-- Main card -->
           <div class="bg-slate-900 rounded-2xl p-4 shadow-2xl">
@@ -93,7 +91,7 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
 
               <!-- Class list panel -->
               <div class="w-32 bg-slate-800 rounded-xl p-2 flex flex-col gap-1 overflow-hidden flex-shrink-0">
-                <div class="text-slate-400 text-xs px-2 py-1 font-medium">Clases de hoy</div>
+                <div class="text-slate-400 text-xs px-2 py-1 font-medium">Clases de mañana</div>
                 <div
                   v-for="i in 4"
                   :key="i"
@@ -119,30 +117,30 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
 
               <!-- Detail panel -->
               <div class="flex-1 bg-slate-800 rounded-xl p-3 flex flex-col gap-2.5 overflow-hidden min-w-0">
-                <!-- Class info row -->
+                <!-- Alumno pide lugar -->
                 <div class="flex gap-2">
-                  <div class="w-5 h-5 rounded-full bg-violet-500 flex-shrink-0 mt-0.5"></div>
+                  <div class="w-5 h-5 rounded-full bg-emerald-500 flex-shrink-0 mt-0.5 flex items-center justify-center text-white text-xs font-bold">L</div>
                   <div class="bg-slate-700 text-slate-200 text-xs rounded-xl rounded-bl-sm px-3 py-2 max-w-full">
-                    Pilates Reformer · 9:00 AM · 8 alumnos
+                    Hola! ¿hay lugar en la clase de 9am?
                   </div>
                 </div>
-                <!-- Attendance row -->
+                <!-- Bot confirma -->
                 <div class="flex gap-2 justify-end">
                   <div class="bg-indigo-600 text-white text-xs rounded-xl rounded-br-sm px-3 py-2 max-w-xs">
-                    Asistencia registrada: 7/8 · 1 ausente
+                    ¡Hola Laura! Sí hay lugar. Te reservo ahora mismo. ✓
                   </div>
                 </div>
-                <!-- Payment alert -->
+                <!-- Segundo alumno -->
                 <div class="flex gap-2">
-                  <div class="w-5 h-5 rounded-full bg-violet-500 flex-shrink-0 mt-0.5"></div>
+                  <div class="w-5 h-5 rounded-full bg-violet-500 flex-shrink-0 mt-0.5 flex items-center justify-center text-white text-xs font-bold">S</div>
                   <div class="bg-slate-700 text-slate-200 text-xs rounded-xl rounded-bl-sm px-3 py-2">
-                    Pago pendiente: María G.
+                    ¿Confirmas mi clase de mañana?
                   </div>
                 </div>
-                <!-- Action row -->
+                <!-- Bot responde -->
                 <div class="flex gap-2 justify-end">
                   <div class="bg-indigo-600 text-white text-xs rounded-xl rounded-br-sm px-3 py-2 max-w-xs">
-                    Recordatorio enviado ✓
+                    Confirmada, Sofía. Nos vemos a las 9am. ✓
                   </div>
                 </div>
                 <!-- Status indicator -->
@@ -151,7 +149,7 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
                     class="w-1.5 h-1.5 rounded-full bg-emerald-400"
                     style="animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;"
                   ></div>
-                  <span class="text-emerald-400 text-xs font-medium">Agenda al día</span>
+                  <span class="text-emerald-400 text-xs font-medium">Bot activo · clase 8/8 ✓</span>
                 </div>
               </div>
             </div>
@@ -169,8 +167,8 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
                 </svg>
               </div>
               <div>
-                <p class="text-xs font-semibold text-slate-900">Clase confirmada</p>
-                <p class="text-xs text-slate-500">Asistencia registrada</p>
+                <p class="text-xs font-semibold text-slate-900">Clase llena</p>
+                <p class="text-xs text-slate-500">8/8 confirmados automáticamente</p>
               </div>
             </div>
           </div>
@@ -182,7 +180,7 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
           >
             <div class="flex items-center gap-2">
               <div class="w-2 h-2 rounded-full bg-indigo-500" style="animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;"></div>
-              <p class="text-xs font-semibold text-slate-700">Control total del estudio</p>
+              <p class="text-xs font-semibold text-slate-700">Confirmado automáticamente</p>
             </div>
           </div>
         </div>
