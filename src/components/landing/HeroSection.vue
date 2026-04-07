@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
+import { SIGNUP_URL } from '../../config/env'
 </script>
 
 <template>
