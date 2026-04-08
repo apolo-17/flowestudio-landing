@@ -52,7 +52,7 @@ const features: Feature[] = [
     bgClass: 'bg-rose-50',
     iconColorClass: 'text-rose-600',
     icon: 'gift',
-    title: 'Prueba 7 días gratis, sin compromisos',
+    title: 'Prueba 14 días gratis, sin compromisos',
     description:
       'Acceso completo desde el primer día. Sin tarjeta de crédito, sin letra chica. Si no te convence, no pagas nada.',
   },

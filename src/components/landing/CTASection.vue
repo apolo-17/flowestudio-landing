@@ -29,7 +29,7 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
           :href="SIGNUP_URL"
           class="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 text-indigo-700 font-semibold px-7 py-3.5 rounded-xl transition-colors text-base shadow-lg"
         >
-          Probar gratis 7 días
+          Probar gratis 14 días
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
           </svg>

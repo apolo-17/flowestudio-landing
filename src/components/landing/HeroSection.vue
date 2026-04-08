@@ -12,7 +12,7 @@ import { SIGNUP_URL } from '../../config/env'
           <!-- Badge -->
           <div class="inline-flex items-center gap-2 bg-indigo-50 text-indigo-700 text-sm font-medium px-3.5 py-1.5 rounded-full mb-6 border border-indigo-100">
             <span class="w-2 h-2 bg-indigo-500 rounded-full" style="animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;"></span>
-            Pilates · Fitness · Coaches · 7 días gratis
+            Pilates · Fitness · Coaches · 14 días gratis
           </div>
 
           <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight mb-6">
@@ -32,7 +32,7 @@ import { SIGNUP_URL } from '../../config/env'
               class="inline-flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-3.5 rounded-xl transition-colors text-base"
               style="box-shadow: 0 4px 14px rgba(79, 70, 229, 0.25);"
             >
-              Probar gratis 7 días
+              Probar gratis 14 días
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
