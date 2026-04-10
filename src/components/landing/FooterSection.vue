@@ -22,7 +22,7 @@ const year = new Date().getFullYear()
             <span class="font-bold text-white text-base">FlowEstudio</span>
           </RouterLink>
           <p class="text-sm text-slate-500 max-w-xs">
-            Automatiza tu WhatsApp y atiende mejor a tus alumnos desde una sola plataforma.
+            El sistema con IA que responde, agenda y mueve la operación del estudio.
           </p>
         </div>
 
@@ -56,7 +56,7 @@ const year = new Date().getFullYear()
             :href="SIGNUP_URL"
             class="text-indigo-400 hover:text-indigo-300 transition-colors font-medium"
           >
-            Registrarse
+            Empieza 14 días gratis
           </a>
         </nav>
 

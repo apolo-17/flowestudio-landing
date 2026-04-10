@@ -12,49 +12,49 @@ const features: Feature[] = [
     bgClass: 'bg-indigo-50',
     iconColorClass: 'text-indigo-600',
     icon: 'inbox',
-    title: 'Tus clases siempre llenas, sin confirmar una por una',
+    title: 'Menos horas operando por WhatsApp',
     description:
-      'Crea y gestiona tus clases desde un solo lugar. Olvídate de confirmar por WhatsApp: tu agenda se llena automáticamente.',
+      'La carga repetitiva desaparece. Tú recuperas tiempo para vender, atender y dirigir el estudio.',
   },
   {
     bgClass: 'bg-emerald-50',
     iconColorClass: 'text-emerald-600',
     icon: 'bot',
-    title: 'Detecta quién está dejando de ir antes de perderlo',
+    title: 'Más clases llenas con menos esfuerzo',
     description:
-      'Lleva el historial de quién asistió a cada clase, sin papeles ni notas. Detecta en segundos qué alumnos se están alejando antes de que se vayan.',
+      'Disponibilidad, confirmaciones y reacomodos salen a tiempo para ocupar mejor cada horario.',
   },
   {
     bgClass: 'bg-violet-50',
     iconColorClass: 'text-violet-600',
     icon: 'flow',
-    title: 'Deja de perseguir alumnos por WhatsApp',
+    title: 'Menos no-shows, más ingreso real',
     description:
-      'Todos tus alumnos en un solo lugar: datos, historial, clases activas y conversaciones. Sin hojas de cálculo, con seguimiento automático.',
+      'Los recordatorios y el seguimiento reducen ausencias que hoy te cuestan dinero.',
   },
   {
     bgClass: 'bg-blue-50',
     iconColorClass: 'text-blue-600',
     icon: 'target',
-    title: 'Confirmaciones automáticas, sin tocar el celular',
+    title: 'Menos dependencia del dueño',
     description:
-      'El sistema responde, confirma y registra reservas por WhatsApp. Tú solo abres el dashboard y ves tus clases llenas.',
+      'El estudio sigue respondiendo y moviéndose aunque no estés encima del teléfono.',
   },
   {
     bgClass: 'bg-amber-50',
     iconColorClass: 'text-amber-600',
     icon: 'lightning',
-    title: 'Recupera horas que hoy pierdes en mensajes',
+    title: 'Más control, menos caos',
     description:
-      'Cada proceso que hoy haces a mano toma minutos con FlowEstudio. Menos mensajes, menos errores, más tiempo para lo que importa.',
+      'Agenda, alumnos, conversaciones y pendientes en un solo sistema que sí opera contigo.',
   },
   {
     bgClass: 'bg-rose-50',
     iconColorClass: 'text-rose-600',
     icon: 'gift',
-    title: 'Prueba 14 días gratis, sin compromisos',
+    title: '14 días de prueba con tu operación real',
     description:
-      'Acceso completo desde el primer día. Sin tarjeta de crédito, sin letra chica. Si no te convence, no pagas nada.',
+      'Conectas tu WhatsApp Business, lo usas con alumnos reales y decides con evidencia, no con promesas.',
   },
 ]
 </script>
@@ -66,11 +66,13 @@ const features: Feature[] = [
       <!-- Header -->
       <div class="text-center max-w-2xl mx-auto mb-14">
         <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-          Todo lo que necesitas para operar tu estudio con control
+          No es un chatbot.<br />
+          No es un CRM.<br />
+          No es una agenda.
         </h2>
         <p class="text-lg text-slate-600">
-          Pasa de WhatsApp y Excel a un sistema real.
-          Todo en un solo lugar, desde el primer día.
+          Es el sistema que responde, agenda y decide qué sigue
+          para que el estudio avance sin depender de ti.
         </p>
       </div>
 

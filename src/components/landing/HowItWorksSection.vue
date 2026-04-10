@@ -10,30 +10,30 @@ const steps: Step[] = [
   {
     number: '01',
     icon: 'user-plus',
-    title: 'Crea tu cuenta',
+    title: 'Activa tu cuenta',
     description:
-      'Regístrate con tu correo en menos de un minuto. Sin tarjeta de crédito, sin compromisos previos.',
+      'Empiezas sin tarjeta y dejas lista la base del estudio para operar.',
   },
   {
     number: '02',
     icon: 'settings',
-    title: 'Carga tus clases y clientes',
+    title: 'Carga horarios, servicios y alumnos',
     description:
-      'Agrega tus horarios, crea tus clases y registra a tus alumnos. La plataforma te guía paso a paso desde el primer día.',
+      'El sistema necesita saber qué vendes, cuándo hay lugar y a quién atiende.',
   },
   {
     number: '03',
     icon: 'phone',
-    title: 'Conecta tu WhatsApp en minutos',
+    title: 'Conecta tu WhatsApp real',
     description:
-      'Vincula tu número al estudio con el método que más te acomode. Hay opciones para todos los niveles y te acompañamos si lo necesitas.',
+      'Ese es el punto clave: desde ahí puede responder con contexto y disponibilidad.',
   },
   {
     number: '04',
     icon: 'zap',
-    title: 'Gestiona desde el primer día',
+    title: 'El sistema responde y agenda',
     description:
-      'Controla asistencia, da seguimiento a cobros y organiza tu agenda desde una sola plataforma. Sin hojas, sin mensajes, sin caos.',
+      'Tus alumnos escriben, la IA contesta, sugiere opciones y mantiene la operación en marcha.',
   },
 ]
 </script>
@@ -45,11 +45,11 @@ const steps: Step[] = [
       <!-- Header -->
       <div class="text-center max-w-2xl mx-auto mb-14">
         <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-          Empieza a operar con orden en minutos
+          Así empieza a operar solo
         </h2>
         <p class="text-lg text-slate-600">
-          En minutos puedes pasar de desorden a control total.
-          Sin conocimientos técnicos, sin setup complicado:
+          El valor aparece cuando conectas tu operación real.
+          En pocos pasos el sistema toma la parte repetitiva.
         </p>
       </div>
 
@@ -148,7 +148,7 @@ const steps: Step[] = [
               class="mt-3 inline-flex items-center gap-1.5 bg-emerald-50 text-emerald-700 text-xs font-medium px-2.5 py-1 rounded-full border border-emerald-100 self-start"
             >
               <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 flex-shrink-0"></span>
-              Configuración automática disponible
+              Aquí empieza el valor real
             </div>
           </div>
         </div>
@@ -157,8 +157,8 @@ const steps: Step[] = [
       <!-- Microcopy de flexibilidad -->
       <div class="mt-10 text-center">
         <p class="text-sm text-slate-500">
-          Nos adaptamos a tu nivel técnico ·
-          <span class="text-slate-600 font-medium">Configúralo tú solo o te acompañamos en el proceso</span>
+          No necesitas equipo técnico ·
+          <span class="text-slate-600 font-medium">Te guiamos para activarlo bien desde el inicio</span>
         </p>
       </div>
 

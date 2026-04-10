@@ -12,17 +12,17 @@ import { SIGNUP_URL } from '../../config/env'
           <!-- Badge -->
           <div class="inline-flex items-center gap-2 bg-indigo-50 text-indigo-700 text-sm font-medium px-3.5 py-1.5 rounded-full mb-6 border border-indigo-100">
             <span class="w-2 h-2 bg-indigo-500 rounded-full" style="animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;"></span>
-            Pilates · Fitness · Coaches · 14 días gratis
+            +30 estudios ya operan con FlowEstudio sin depender del celular
           </div>
 
           <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight mb-6">
-            Llena tus clases automáticamente
-            <span class="text-indigo-600"> desde WhatsApp</span>
+            Deja de responder mensajes.
+            <span class="text-indigo-600"> Tu estudio puede operar solo desde WhatsApp.</span>
           </h1>
 
           <p class="text-xl text-slate-600 leading-relaxed mb-8">
-            Tus alumnos reservan, confirman y reciben recordatorios sin que tengas que escribirles uno por uno.
-            Todo desde una sola pantalla.
+            FlowEstudio responde alumnos, agenda clases y mantiene la operación en marcha desde WhatsApp.
+            No es un chatbot. Es el sistema que evita que tu estudio dependa de ti.
           </p>
 
           <!-- CTAs -->
@@ -32,7 +32,7 @@ import { SIGNUP_URL } from '../../config/env'
               class="inline-flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-3.5 rounded-xl transition-colors text-base"
               style="box-shadow: 0 4px 14px rgba(79, 70, 229, 0.25);"
             >
-              Probar gratis 14 días
+              Empieza 14 días gratis
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
@@ -45,13 +45,13 @@ import { SIGNUP_URL } from '../../config/env'
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              Ver cómo funciona
+              Ver cómo opera el sistema
             </a>
           </div>
 
           <!-- Trust line -->
           <p class="text-sm text-slate-400 mt-5">
-            Sin tarjeta · Configuración en minutos
+            14 días reales · Sin tarjeta · Con tu operación real
           </p>
         </div>
 
@@ -60,7 +60,7 @@ import { SIGNUP_URL } from '../../config/env'
         <div class="relative">
           <!-- Microcopy mockup -->
           <p class="text-xs font-medium text-slate-400 text-center mb-3 tracking-wide uppercase">
-            Así se llenan tus clases automáticamente
+            Así opera el estudio sin perseguir mensajes
           </p>
           <!-- Main card -->
           <div class="bg-slate-900 rounded-2xl p-4 shadow-2xl">
@@ -127,20 +127,20 @@ import { SIGNUP_URL } from '../../config/env'
                 <!-- Bot confirma -->
                 <div class="flex gap-2 justify-end">
                   <div class="bg-indigo-600 text-white text-xs rounded-xl rounded-br-sm px-3 py-2 max-w-xs">
-                    ¡Hola Laura! Sí hay lugar. Te reservo ahora mismo. ✓
+                    9am ya está llena. Te puedo apartar 11am o dejarte en lista de espera. ✓
                   </div>
                 </div>
                 <!-- Segundo alumno -->
                 <div class="flex gap-2">
                   <div class="w-5 h-5 rounded-full bg-violet-500 flex-shrink-0 mt-0.5 flex items-center justify-center text-white text-xs font-bold">S</div>
                   <div class="bg-slate-700 text-slate-200 text-xs rounded-xl rounded-bl-sm px-3 py-2">
-                    ¿Confirmas mi clase de mañana?
+                    Entonces apártame 11am
                   </div>
                 </div>
                 <!-- Bot responde -->
                 <div class="flex gap-2 justify-end">
                   <div class="bg-indigo-600 text-white text-xs rounded-xl rounded-br-sm px-3 py-2 max-w-xs">
-                    Confirmada, Sofía. Nos vemos a las 9am. ✓
+                    Listo, Sofía. Reserva confirmada para las 11am. ✓
                   </div>
                 </div>
                 <!-- Status indicator -->
@@ -149,7 +149,7 @@ import { SIGNUP_URL } from '../../config/env'
                     class="w-1.5 h-1.5 rounded-full bg-emerald-400"
                     style="animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;"
                   ></div>
-                  <span class="text-emerald-400 text-xs font-medium">Bot activo · clase 8/8 ✓</span>
+                  <span class="text-emerald-400 text-xs font-medium">IA activa · agenda actualizada ✓</span>
                 </div>
               </div>
             </div>
@@ -167,8 +167,8 @@ import { SIGNUP_URL } from '../../config/env'
                 </svg>
               </div>
               <div>
-                <p class="text-xs font-semibold text-slate-900">Clase llena</p>
-                <p class="text-xs text-slate-500">8/8 confirmados automáticamente</p>
+                <p class="text-xs font-semibold text-slate-900">Horario reacomodado</p>
+                <p class="text-xs text-slate-500">Nueva reserva sin intervención</p>
               </div>
             </div>
           </div>
@@ -180,7 +180,7 @@ import { SIGNUP_URL } from '../../config/env'
           >
             <div class="flex items-center gap-2">
               <div class="w-2 h-2 rounded-full bg-indigo-500" style="animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;"></div>
-              <p class="text-xs font-semibold text-slate-700">Confirmado automáticamente</p>
+              <p class="text-xs font-semibold text-slate-700">Disponibilidad consultada</p>
             </div>
           </div>
         </div>

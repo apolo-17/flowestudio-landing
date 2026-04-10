@@ -9,29 +9,29 @@ interface FAQ {
 
 const faqs: FAQ[] = [
   {
-    question: '¿Para qué tipo de negocio es FlowEstudio?',
+    question: '¿Qué es exactamente FlowEstudio?',
     answer:
-      'FlowEstudio está diseñado para estudios de pilates, coaches de fitness y entrenadores que gestionan grupos de alumnos. Si hoy operas con WhatsApp, Excel o una agenda manual, FlowEstudio te da el control y el orden que necesitas para operar como un negocio real.',
+      'FlowEstudio está hecho para estudios de pilates, fitness y negocios con clases. No es un chatbot, un CRM ni una agenda. Es el sistema que responde alumnos, agenda clases y decide qué sigue para que el estudio no dependa de ti.',
   },
   {
-    question: '¿Puedo probarlo gratis?',
+    question: '¿Qué incluye la prueba gratis de 14 días?',
     answer:
-      'Sí. Estamos en una etapa de acceso anticipado y los primeros estudios que se registren tienen acceso completo de forma gratuita durante 6 meses. No pedimos tarjeta de crédito ni ningún compromiso previo.',
+      'Incluye el uso real del sistema con tu operación y tu WhatsApp Business conectado. Puedes ver respuestas, confirmaciones, recordatorios y seguimiento funcionando desde el día 1. No pedimos tarjeta.',
   },
   {
-    question: '¿Necesito conocimientos técnicos para configurarlo?',
+    question: '¿Necesito conocimientos técnicos para activarlo?',
     answer:
-      'No. FlowEstudio te guía con un proceso paso a paso desde el primer día. Puedes cargar tus clases, registrar alumnos y empezar a operar el mismo día, sin experiencia previa en software de gestión. Si tienes dudas, estamos disponibles para apoyarte.',
+      'No. Te guiamos para cargar horarios, conectar WhatsApp y dejar todo listo. La idea es que empieces rápido y con el flujo real funcionando, no que aprendas software complicado.',
   },
   {
-    question: '¿Qué pasa después de los 6 meses?',
+    question: '¿Qué pasa después de los 14 días?',
     answer:
-      'Al finalizar el período de acceso anticipado, te presentaremos los planes disponibles. Si decides no continuar, respetamos tu decisión sin complicaciones. Nuestro objetivo es que sientas el valor real de la plataforma antes de cualquier cobro.',
+      'Decides si continúas con un plan de pago. Si no sigues, no se cobra nada. La prueba está para que evalúes el sistema con uso real, no con una demo.',
   },
   {
-    question: '¿Cómo funciona la integración con WhatsApp?',
+    question: '¿Qué hace la IA en el plan Autopilot?',
     answer:
-      'Conectas tu número de WhatsApp Business al sistema. Desde el dashboard puedes ver las conversaciones centralizadas, activar respuestas automáticas básicas para preguntas frecuentes y dar seguimiento a tus alumnos. Cuando lo necesitas, retomas la atención de forma manual desde el mismo lugar, sin perder el hilo.',
+      'Responde con contexto del alumno y del estudio, consulta disponibilidad antes de contestar, sugiere horarios y decide qué sigue para mantener la operación en marcha. En fases futuras irá operando más acciones desde el mismo flujo.',
   },
 ]
 

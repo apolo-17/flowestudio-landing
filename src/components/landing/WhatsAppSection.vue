@@ -11,17 +11,15 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
             </svg>
-            WhatsApp Business conectado
+            Operación en marcha
           </div>
 
           <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4 leading-tight">
-            Tus alumnos reservan por WhatsApp.<br />
-            <span class="text-emerald-600">El sistema hace todo lo demás.</span>
+            Esto pasa aunque tú no contestes
           </h2>
 
           <p class="text-lg text-slate-600 mb-8 leading-relaxed">
-            Confirma asistencia, envía recordatorios y llena tus clases automáticamente.
-            Sin estar pegado al celular.
+            El sistema responde con contexto, consulta disponibilidad y mueve la conversación sin que tengas que intervenir.
           </p>
 
           <ul class="space-y-4">
@@ -32,8 +30,8 @@
                 </svg>
               </div>
               <div>
-                <p class="font-semibold text-slate-900 text-sm">Reservas automáticas</p>
-                <p class="text-slate-600 text-sm mt-0.5">El alumno escribe, el sistema registra la reserva y tú ves la clase organizada en tu dashboard.</p>
+                <p class="font-semibold text-slate-900 text-sm">Consulta disponibilidad antes de responder</p>
+                <p class="text-slate-600 text-sm mt-0.5">No te obliga a revisar horarios manualmente antes de contestar.</p>
               </div>
             </li>
             <li class="flex items-start gap-3">
@@ -43,8 +41,8 @@
                 </svg>
               </div>
               <div>
-                <p class="font-semibold text-slate-900 text-sm">Confirmaciones sin intervención</p>
-                <p class="text-slate-600 text-sm mt-0.5">FlowEstudio responde por ti para confirmar asistencia sin que tengas que contestar uno por uno.</p>
+                <p class="font-semibold text-slate-900 text-sm">Sugiere horarios cuando no hay espacio</p>
+                <p class="text-slate-600 text-sm mt-0.5">Evita que la conversación se detenga cuando no hay lugar.</p>
               </div>
             </li>
             <li class="flex items-start gap-3">
@@ -54,8 +52,8 @@
                 </svg>
               </div>
               <div>
-                <p class="font-semibold text-slate-900 text-sm">Recordatorios que reducen faltas</p>
-                <p class="text-slate-600 text-sm mt-0.5">Los recordatorios salen a tiempo para que más alumnos lleguen a clase y menos lugares se pierdan.</p>
+                <p class="font-semibold text-slate-900 text-sm">Confirma reservas automáticamente</p>
+                <p class="text-slate-600 text-sm mt-0.5">La agenda se actualiza sin que tú persigas cada mensaje hasta el final.</p>
               </div>
             </li>
             <li class="flex items-start gap-3">
@@ -65,8 +63,8 @@
                 </svg>
               </div>
               <div>
-                <p class="font-semibold text-slate-900 text-sm">Conversaciones organizadas</p>
-                <p class="text-slate-600 text-sm mt-0.5">Todo queda centralizado para que sepas quién escribió, qué pidió y qué seguimiento necesita.</p>
+                <p class="font-semibold text-slate-900 text-sm">Decide qué sigue sin intervención manual</p>
+                <p class="text-slate-600 text-sm mt-0.5">Decide qué sigue para que el estudio avance sin depender de ti.</p>
               </div>
             </li>
           </ul>
@@ -75,7 +73,7 @@
         <!-- Right: visual card -->
         <div class="relative">
           <p class="text-xs font-medium text-slate-400 text-center mb-3 tracking-wide uppercase">
-            Conversaciones centralizadas en tu dashboard
+            El sistema mantiene la operación en marcha
           </p>
           <div class="bg-slate-900 rounded-2xl p-4 shadow-2xl">
             <!-- Browser chrome -->
@@ -142,18 +140,18 @@
                 </div>
                 <div class="flex gap-2 justify-end">
                   <div class="bg-emerald-700 text-white text-xs rounded-xl rounded-br-sm px-3 py-2 max-w-xs">
-                    ¡Hola Laura! Sí hay lugar. Te confirmo. ✓
+                    A las 9am ya no hay lugar. Te puedo mover a las 11am o al jueves a las 9am. ✓
                   </div>
                 </div>
                 <div class="flex gap-2">
                   <div class="bg-slate-600 text-slate-300 text-xs rounded-xl rounded-bl-sm px-3 py-2 max-w-full italic">
-                    Respuesta automática enviada
+                    El sistema consultó disponibilidad y decidió qué sigue
                   </div>
                 </div>
                 <!-- Status -->
                 <div class="flex items-center gap-1.5 mt-auto pt-1 border-t border-slate-700">
                   <div class="w-1.5 h-1.5 rounded-full bg-emerald-400" style="animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;"></div>
-                  <span class="text-emerald-400 text-xs font-medium">Bot activo · 3 conversaciones hoy</span>
+                  <span class="text-emerald-400 text-xs font-medium">IA activa · operación en marcha</span>
                 </div>
               </div>
             </div>
@@ -171,8 +169,8 @@
                 </svg>
               </div>
               <div>
-                <p class="text-xs font-semibold text-slate-900">Reserva confirmada</p>
-                <p class="text-xs text-slate-500">Respondido automáticamente</p>
+                <p class="text-xs font-semibold text-slate-900">Siguiente paso definido</p>
+                <p class="text-xs text-slate-500">La conversación siguió sola</p>
               </div>
             </div>
           </div>

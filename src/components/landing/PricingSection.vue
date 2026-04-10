@@ -16,51 +16,65 @@ interface Plan {
 const plans: Plan[] = [
   {
     label: 'Starter',
-    tagline: 'Para estudios que están empezando',
+    tagline: 'Automatización básica',
     price: '$699',
-    priceContext: 'Un alumno recuperado ya lo paga',
-    conversations: 'Hasta 150 conversaciones mensuales',
+    priceContext: 'Dejas de hacer lo repetitivo a mano',
     highlighted: false,
+    conversations: 'Hasta 150 conversaciones · Sin IA agent',
     features: [
-      'Confirma reservas automáticamente',
-      'Envía recordatorios para reducir faltas',
-      'Responde mensajes fuera de horario',
-      'Dashboard para gestionar tu operación',
+      'Confirma y recuerda automáticamente',
+      'Mantiene orden básico de agenda y alumnos',
+      'Reduce respuestas manuales del día a día',
+      'Ideal para empezar sin caos',
     ],
-    cta: 'Empieza a automatizar hoy',
+    cta: 'Empieza 14 días gratis',
   },
   {
     label: 'Growth',
-    tagline: 'Para estudios que quieren crecer',
+    tagline: 'Crecimiento automático',
     price: '$1,299',
-    priceContext: 'Menos de lo que pierdes con 3 ausencias',
-    conversations: 'Hasta 500 conversaciones mensuales',
-    highlighted: true,
-    badge: 'Más popular',
+    priceContext: 'Empieza a recuperar alumnos sin esfuerzo manual',
+    conversations: 'Hasta 500 conversaciones · Sin IA agent',
+    highlighted: false,
     features: [
-      'Todo lo del plan Starter',
-      'Recupera alumnos que dejaron de asistir',
-      'Llena clases sin intervención manual',
+      'Más volumen para operar sin fricción',
       'Seguimiento automático de interesados',
-      'Soporte prioritario',
+      'Ayuda a recuperar clases y alumnos',
+      'Ideal para estudios en crecimiento',
     ],
-    cta: 'Activa tu sistema en minutos',
+    cta: 'Empieza 14 días gratis',
   },
   {
     label: 'Pro',
-    tagline: 'Para estudios con operación consolidada',
+    tagline: 'Operación avanzada',
     price: '$2,499',
-    priceContext: 'Diseñado para estudios de alto volumen',
-    conversations: 'Hasta 1,200 conversaciones mensuales',
+    priceContext: 'Te ayuda a responder mejor. No reemplaza la operación.',
+    conversations: 'Hasta 1,200 conversaciones · IA ligera incluida',
     highlighted: false,
     features: [
-      'Todo lo del plan Growth',
-      'Automatización avanzada de flujos',
-      'Reportes y métricas de operación',
-      'Múltiples números de WhatsApp',
-      'Soporte dedicado',
+      'Respuestas más inteligentes según contexto',
+      'Clasifica conversaciones y prioridades',
+      'Ordena mejor la operación del equipo',
+      'Ideal para estudios con demanda constante',
     ],
-    cta: 'Escala tu operación hoy',
+    cta: 'Empieza 14 días gratis',
+  },
+  {
+    label: 'Autopilot',
+    tagline: 'Para estudios que quieren dejar de depender del celular para operar todos los días',
+    price: '$3,499',
+    priceContext: 'IA agent completa para mantener la operación en marcha',
+    conversations: 'No es más automatización. Es que el sistema opere por ti todos los días.',
+    highlighted: true,
+    badge: '🔥 EL ESTUDIO FUNCIONA AUNQUE NO ESTÉS',
+    features: [
+      'Responde alumnos con contexto real',
+      'Consulta disponibilidad antes de ofrecer',
+      'Sugiere horarios cuando no hay lugar',
+      'Da seguimiento sin que persigas a nadie',
+      'Mantiene la operación en marcha todo el día',
+    ],
+    cta: 'Empieza 14 días gratis',
   },
 ]
 </script>
@@ -73,10 +87,11 @@ const plans: Plan[] = [
       <div class="text-center max-w-2xl mx-auto mb-16">
         <p class="text-indigo-600 font-semibold text-sm uppercase tracking-wide mb-3">Precios</p>
         <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-          Planes diseñados para llenarte clases,<br class="hidden sm:block" /> no para contar mensajes
+          Elige cuánto quieres que el sistema opere por ti
         </h2>
         <p class="text-lg text-slate-600">
-          Con recuperar 3–5 alumnos al mes, el sistema se paga solo. Lo demás es ganancia.
+          No estás pagando mensajes. Estás comprando menos operación manual,
+          más clases llenas y más control.
         </p>
       </div>
 
@@ -191,16 +206,20 @@ const plans: Plan[] = [
 
       <!-- Extra conversations note -->
       <p class="text-center text-slate-400 text-xs mt-6">
-        ¿Necesitas más volumen? Conversaciones adicionales desde $2 MXN c/u.
+        Todos los planes incluyen 14 días reales · Sin tarjeta · Con tu operación real
       </p>
 
       <!-- ROI Section -->
       <div class="mt-16 bg-white border border-slate-200 rounded-2xl p-8 md:p-10 max-w-3xl mx-auto">
         <div class="text-center mb-8">
           <p class="text-indigo-600 font-semibold text-sm uppercase tracking-wide mb-2">El cálculo es simple</p>
-          <h3 class="text-2xl font-bold text-slate-900">¿Por qué se paga solo?</h3>
+          <h3 class="text-2xl font-bold text-slate-900">Se paga con pocas clases recuperadas</h3>
           <p class="text-slate-500 mt-2 text-sm">
-            No necesitas que funcione para 100 alumnos. Solo para 3 o 4.
+            Si el sistema evita algunas ausencias y mueve unos pocos alumnos al mes,
+            ya cubre su costo.
+          </p>
+          <p class="text-slate-600 mt-3 text-sm font-medium">
+            Algunos estudios ya recuperan 3-5 clases al mes sin intervención manual.
           </p>
         </div>
 
@@ -211,11 +230,11 @@ const plans: Plan[] = [
           </div>
           <div class="bg-slate-50 rounded-xl p-5">
             <p class="text-3xl font-extrabold text-indigo-600 mb-1">×3</p>
-            <p class="text-sm text-slate-500">Alumnos recuperados o confirmados</p>
+            <p class="text-sm text-slate-500">Alumnos recuperados o reacomodados</p>
           </div>
           <div class="bg-emerald-50 rounded-xl p-5 border border-emerald-100">
             <p class="text-3xl font-extrabold text-emerald-600 mb-1">$750</p>
-            <p class="text-sm text-slate-500">Ingreso extra. El sistema ya está pagado.</p>
+            <p class="text-sm text-slate-500">Ingreso protegido. El sistema ya se pagó.</p>
           </div>
         </div>
 
@@ -224,19 +243,19 @@ const plans: Plan[] = [
             <svg class="w-4 h-4 text-indigo-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
             </svg>
-            Cada alumno que no se presenta y no confirma es ingreso que no entra. FlowEstudio lo evita.
+            El valor no está en automatizar mensajes.
           </div>
           <div class="flex items-start gap-3 text-sm text-slate-600">
             <svg class="w-4 h-4 text-indigo-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
             </svg>
-            El tiempo que ahorras respondiendo WhatsApps equivale a horas de trabajo al mes. Horas que puedes dedicar a tu negocio.
+            Está en no perder ingresos por falta de seguimiento.
           </div>
           <div class="flex items-start gap-3 text-sm text-slate-600">
             <svg class="w-4 h-4 text-indigo-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
             </svg>
-            No pagas por mensajes. Pagas para que tu negocio funcione aunque no estés en el teléfono.
+            Si mueve pocas clases al mes, ya devuelve más de lo que cuesta.
           </div>
         </div>
       </div>

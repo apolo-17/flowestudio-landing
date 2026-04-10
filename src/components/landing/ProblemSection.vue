@@ -8,27 +8,27 @@ interface PainPoint {
 const painPoints: PainPoint[] = [
   {
     icon: 'clock',
-    title: 'Confirmas clases por WhatsApp, una por una',
+    title: 'Tu WhatsApp se volvió el centro del negocio',
     description:
-      'Cada alumno escribe, tú respondes, reagendas, confirmas. Horas de tu semana que se van en mensajes que podría resolver un sistema.',
+      'Cada reserva, cambio y confirmación pasa por ti. El estudio avanza a la velocidad de tus respuestas.',
   },
   {
     icon: 'user-x',
-    title: 'El seguimiento de alumnos vive en tu cabeza',
+    title: 'Pierdes alumnos sin darte cuenta',
     description:
-      'No sabes quién está activo, quién lleva semanas sin aparecer ni a quién hay que contactar. La información está repartida en mensajes y notas que solo tú entiendes.',
+      'Sin seguimiento claro, no ves quién dejó de venir hasta que ya se fue.',
   },
   {
     icon: 'chat',
-    title: 'No tienes registro de quién asistió',
+    title: 'Las clases se vacían por falta de timing',
     description:
-      'Si no anotas tú, no existe. Sin historial de asistencia no puedes detectar a los alumnos que se están alejando antes de que se vayan.',
+      'Sin confirmaciones y recordatorios a tiempo, aparecen huecos que ya no recuperas.',
   },
   {
     icon: 'phone',
-    title: 'Si tú no estás, el estudio no funciona',
+    title: 'Si tú no contestas, la operación se frena',
     description:
-      'La operación depende completamente de ti. No hay sistema, no hay orden, no hay delegación posible. Solo tú respondiendo todo, siempre.',
+      'No falta otra agenda. Falta un sistema trabajando por ti mientras atiendes el negocio.',
   },
 ]
 </script>
@@ -40,11 +40,11 @@ const painPoints: PainPoint[] = [
       <!-- Header -->
       <div class="text-center max-w-2xl mx-auto mb-14">
         <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-          ¿Te identificas con esto?
+          El problema no es WhatsApp. Es que el estudio depende de ti.
         </h2>
         <p class="text-lg text-slate-600">
-          Si hoy operas tu estudio con WhatsApp, Excel o notas,
-          sabes lo complicado que se vuelve:
+          Cuando reservas, cambios y seguimiento pasan por tu celular,
+          no falta un chatbot ni una agenda: falta un sistema.
         </p>
       </div>
 

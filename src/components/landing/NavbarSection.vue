@@ -52,7 +52,7 @@ const navLinks = [
             :href="SIGNUP_URL"
             class="bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors shadow-sm"
           >
-            Probar gratis
+            Empieza 14 días gratis
           </a>
         </div>
 
@@ -96,7 +96,7 @@ const navLinks = [
           :href="SIGNUP_URL"
           class="text-center bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold py-2.5 rounded-lg transition-colors"
         >
-          Probar gratis 6 meses
+          Empieza 14 días gratis
         </a>
       </div>
     </div>
