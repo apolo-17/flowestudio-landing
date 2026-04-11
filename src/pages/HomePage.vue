@@ -7,6 +7,7 @@ import PricingSection from '../components/landing/PricingSection.vue'
 import HowItWorksSection from '../components/landing/HowItWorksSection.vue'
 import CTASection from '../components/landing/CTASection.vue'
 import FAQSection from '../components/landing/FAQSection.vue'
+import SeoContentSection from '../components/landing/SeoContentSection.vue'
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import FAQSection from '../components/landing/FAQSection.vue'
   <WhatsAppSection />
   <ProblemSection />
   <BenefitsSection />
+  <SeoContentSection />
   <PricingSection />
   <HowItWorksSection />
   <CTASection />
