@@ -1,5 +1,23 @@
 <script setup lang="ts">
 import { SUPPORT_EMAIL } from '../config/env'
+import { createOrganizationSchema, createSoftwareApplicationSchema } from '../seo/schema'
+import { usePageSeo } from '../seo/usePageSeo'
+
+const dataDeletionDescription =
+  'Conoce el proceso para solicitar la eliminación de datos personales y conversaciones almacenadas en FlowEstudio.'
+
+usePageSeo({
+  title: 'Eliminación de datos · FlowEstudio',
+  description: dataDeletionDescription,
+  path: '/data-deletion',
+  schema: [
+    createOrganizationSchema(),
+    createSoftwareApplicationSchema({
+      description: dataDeletionDescription,
+      path: '/data-deletion',
+    }),
+  ],
+})
 </script>
 
 <template>

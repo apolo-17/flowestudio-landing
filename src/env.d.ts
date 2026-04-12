@@ -9,6 +9,7 @@ interface ImportMetaEnv {
   readonly VITE_LOGIN_URL: string
   readonly VITE_SIGNUP_URL: string
   readonly VITE_SUPPORT_EMAIL: string
+  readonly VITE_WHATSAPP_URL: string
 }
 
 interface ImportMeta {

@@ -7,4 +7,11 @@ export default defineConfig({
     vue(),
     tailwindcss(),
   ],
+  ssgOptions: {
+    dirStyle: 'flat',
+    formatting: 'minify',
+    includedRoutes() {
+      return ['/', '/pricing', '/features', '/whatsapp', '/privacy', '/terms', '/data-deletion', '/404']
+    },
+  },
 })

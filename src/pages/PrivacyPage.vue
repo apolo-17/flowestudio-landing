@@ -1,5 +1,23 @@
 <script setup lang="ts">
 import { SUPPORT_EMAIL } from '../config/env'
+import { createOrganizationSchema, createSoftwareApplicationSchema } from '../seo/schema'
+import { usePageSeo } from '../seo/usePageSeo'
+
+const privacyDescription =
+  'Consulta cómo FlowEstudio protege y procesa datos personales y conversaciones de WhatsApp dentro de la plataforma.'
+
+usePageSeo({
+  title: 'Política de privacidad · FlowEstudio',
+  description: privacyDescription,
+  path: '/privacy',
+  schema: [
+    createOrganizationSchema(),
+    createSoftwareApplicationSchema({
+      description: privacyDescription,
+      path: '/privacy',
+    }),
+  ],
+})
 </script>
 
 <template>

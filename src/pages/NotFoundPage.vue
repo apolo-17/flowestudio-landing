@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
 import { SIGNUP_URL } from '../config/env'
+import { createOrganizationSchema } from '../seo/schema'
+import { usePageSeo } from '../seo/usePageSeo'
+
+usePageSeo({
+  title: 'Página no encontrada · FlowEstudio',
+  description: 'La página solicitada no está disponible en FlowEstudio.',
+  path: '/404',
+  robots: 'noindex, nofollow',
+  schema: [createOrganizationSchema()],
+})
 </script>
 
 <template>

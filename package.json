@@ -5,14 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
-    "build:dev": "vue-tsc -b && vite build --mode development",
-    "build:prod": "vue-tsc -b && vite build --mode production",
+    "build": "vue-tsc -b && vite-ssg build",
+    "build:dev": "vue-tsc -b && vite-ssg build --mode development",
+    "build:prod": "vue-tsc -b && vite-ssg build --mode production",
     "deploy:dev": "npm run build:dev && firebase deploy --only hosting",
     "deploy:prod": "npm run build:prod && firebase deploy --only hosting",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@unhead/vue": "^2.1.13",
+    "vite-ssg": "^28.3.0",
     "vue": "^3.5.25",
     "vue-router": "^5.0.3"
   },

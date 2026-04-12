@@ -1,5 +1,23 @@
 <script setup lang="ts">
 import { SUPPORT_EMAIL } from '../config/env'
+import { createOrganizationSchema, createSoftwareApplicationSchema } from '../seo/schema'
+import { usePageSeo } from '../seo/usePageSeo'
+
+const termsDescription =
+  'Revisa los términos y condiciones de uso de FlowEstudio para estudios de pilates y fitness.'
+
+usePageSeo({
+  title: 'Términos de uso · FlowEstudio',
+  description: termsDescription,
+  path: '/terms',
+  schema: [
+    createOrganizationSchema(),
+    createSoftwareApplicationSchema({
+      description: termsDescription,
+      path: '/terms',
+    }),
+  ],
+})
 </script>
 
 <template>
@@ -34,12 +52,11 @@ import { SUPPORT_EMAIL } from '../config/env'
         </section>
 
         <section>
-          <h2 class="text-xl font-semibold text-slate-900 mb-3">3. Acceso anticipado gratuito</h2>
+          <h2 class="text-xl font-semibold text-slate-900 mb-3">3. Prueba gratuita</h2>
           <p>
-            Durante el período de acceso anticipado, el uso de FlowEstudio es completamente
-            gratuito por 6 meses desde la fecha de registro. Al finalizar este período,
-            te informaremos sobre los planes de pago disponibles. Puedes cancelar en
-            cualquier momento sin penalización.
+            Durante el período de prueba, el uso de FlowEstudio es gratuito por 14 días
+            desde la fecha de registro. Al finalizar ese período, podrás elegir uno de los
+            planes de pago disponibles o cancelar en cualquier momento sin penalización.
           </p>
         </section>
 

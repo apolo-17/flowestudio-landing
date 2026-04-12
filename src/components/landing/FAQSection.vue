@@ -1,39 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { SUPPORT_EMAIL } from '../../config/env'
-
-interface FAQ {
-  question: string
-  answer: string
-}
-
-const faqs: FAQ[] = [
-  {
-    question: '¿Para qué tipo de negocio es FlowEstudio?',
-    answer:
-      'FlowEstudio está diseñado para estudios de pilates, coaches de fitness y entrenadores que gestionan grupos de alumnos. Si hoy operas con WhatsApp, Excel o una agenda manual, FlowEstudio te da el control y el orden que necesitas para operar como un negocio real.',
-  },
-  {
-    question: '¿Puedo probarlo gratis?',
-    answer:
-      'Sí. Estamos en una etapa de acceso anticipado y los primeros estudios que se registren tienen acceso completo de forma gratuita durante 6 meses. No pedimos tarjeta de crédito ni ningún compromiso previo.',
-  },
-  {
-    question: '¿Necesito conocimientos técnicos para configurarlo?',
-    answer:
-      'No. FlowEstudio te guía con un proceso paso a paso desde el primer día. Puedes cargar tus clases, registrar alumnos y empezar a operar el mismo día, sin experiencia previa en software de gestión. Si tienes dudas, estamos disponibles para apoyarte.',
-  },
-  {
-    question: '¿Qué pasa después de los 6 meses?',
-    answer:
-      'Al finalizar el período de acceso anticipado, te presentaremos los planes disponibles. Si decides no continuar, respetamos tu decisión sin complicaciones. Nuestro objetivo es que sientas el valor real de la plataforma antes de cualquier cobro.',
-  },
-  {
-    question: '¿Cómo funciona la integración con WhatsApp?',
-    answer:
-      'Conectas tu número de WhatsApp Business al sistema. Desde el dashboard puedes ver las conversaciones centralizadas, activar respuestas automáticas básicas para preguntas frecuentes y dar seguimiento a tus alumnos. Cuando lo necesitas, retomas la atención de forma manual desde el mismo lugar, sin perder el hilo.',
-  },
-]
+import { homeFaqs as faqs } from '../../content/faqs'
 
 const openIndex = ref<number | null>(null)
 
@@ -80,7 +48,7 @@ function toggle(index: number) {
             </svg>
           </button>
           <div
-            v-if="openIndex === index"
+            v-show="openIndex === index"
             class="px-6 pb-5"
           >
             <p class="text-slate-600 leading-relaxed">{{ faq.answer }}</p>

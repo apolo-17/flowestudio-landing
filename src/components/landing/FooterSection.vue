@@ -29,6 +29,42 @@ const year = new Date().getFullYear()
         <!-- Links -->
         <nav class="flex flex-wrap gap-x-6 gap-y-3 text-sm">
           <RouterLink
+            :to="{ path: '/', hash: '#features' }"
+            class="hover:text-slate-200 transition-colors"
+          >
+            Funciones
+          </RouterLink>
+          <RouterLink
+            :to="{ path: '/', hash: '#whatsapp' }"
+            class="hover:text-slate-200 transition-colors"
+          >
+            WhatsApp
+          </RouterLink>
+          <RouterLink
+            :to="{ path: '/', hash: '#pricing' }"
+            class="hover:text-slate-200 transition-colors"
+          >
+            Precios
+          </RouterLink>
+          <RouterLink
+            to="/features"
+            class="text-slate-500 hover:text-slate-200 transition-colors"
+          >
+            /features
+          </RouterLink>
+          <RouterLink
+            to="/whatsapp"
+            class="text-slate-500 hover:text-slate-200 transition-colors"
+          >
+            /whatsapp
+          </RouterLink>
+          <RouterLink
+            to="/pricing"
+            class="text-slate-500 hover:text-slate-200 transition-colors"
+          >
+            /pricing
+          </RouterLink>
+          <RouterLink
             to="/privacy"
             class="hover:text-slate-200 transition-colors"
           >
