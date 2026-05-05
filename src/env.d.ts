@@ -1,5 +1,12 @@
 /// <reference types="vite/client" />
 
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void
+    dataLayer?: unknown[]
+  }
+}
+
 interface ImportMetaEnv {
   readonly VITE_APP_NAME: string
   readonly VITE_ENVIRONMENT: string
