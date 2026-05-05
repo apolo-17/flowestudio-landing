@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
+import { trackWhatsAppClick } from '../../analytics'
 </script>
 
 <template>
@@ -39,6 +40,7 @@ import { SIGNUP_URL, WHATSAPP_URL } from '../../config/env'
           target="_blank"
           rel="noopener"
           class="inline-flex items-center justify-center gap-2 text-white/80 hover:text-white font-medium px-7 py-3.5 rounded-xl border border-white/20 hover:border-white/40 transition-colors text-base"
+          @click="trackWhatsAppClick('cta_section')"
         >
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
