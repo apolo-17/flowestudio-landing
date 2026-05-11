@@ -2,9 +2,10 @@
 interface Feature {
   bgClass: string
   iconColorClass: string
-  icon: 'inbox' | 'bot' | 'flow' | 'target' | 'lightning' | 'gift'
+  icon: 'inbox' | 'bot' | 'flow' | 'target' | 'lightning' | 'gift' | 'ai'
   title: string
   description: string
+  badge?: string
 }
 
 const features: Feature[] = [
@@ -23,6 +24,15 @@ const features: Feature[] = [
     title: 'Detecta quién está dejando de ir antes de perderlo',
     description:
       'Lleva el historial de quién asistió a cada clase, sin papeles ni notas. Detecta en segundos qué alumnos se están alejando antes de que se vayan.',
+  },
+  {
+    bgClass: 'bg-indigo-50',
+    iconColorClass: 'text-indigo-600',
+    icon: 'ai',
+    title: 'Bot con IA que entiende a tus alumnos, aunque escriban mal',
+    description:
+      'Nuestro asistente de WhatsApp usa inteligencia artificial para entender lo que tus alumnos quieren decir, sin importar cómo lo escriban. Reservas, cancelaciones y dudas frecuentes, resueltas al instante.',
+    badge: 'Con IA',
   },
   {
     bgClass: 'bg-violet-50',
@@ -165,7 +175,23 @@ const features: Feature[] = [
                 d="M13 10V3L4 14h7v7l9-11h-7z"
               />
             </svg>
-            <!-- Gift -->
+            <!-- AI -->
+            <svg
+              v-else-if="feature.icon === 'ai'"
+              class="w-5 h-5"
+              :class="feature.iconColorClass"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1 1 .03 2.603-1.352 2.603H4.15c-1.382 0-2.352-1.603-1.352-2.603L4.2 15.3"
+              />
+            </svg>
+            <!-- Gift (default) -->
             <svg
               v-else
               class="w-5 h-5"
@@ -182,7 +208,15 @@ const features: Feature[] = [
               />
             </svg>
           </div>
-          <h3 class="font-semibold text-slate-900 mb-2">{{ feature.title }}</h3>
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="font-semibold text-slate-900">{{ feature.title }}</h3>
+            <span
+              v-if="feature.badge"
+              class="ml-2 shrink-0 text-xs font-semibold px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-700"
+            >
+              {{ feature.badge }}
+            </span>
+          </div>
           <p class="text-sm text-slate-600 leading-relaxed">{{ feature.description }}</p>
         </div>
       </div>
