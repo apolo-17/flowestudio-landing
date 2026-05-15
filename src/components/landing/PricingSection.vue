@@ -17,11 +17,12 @@ const plans: Plan[] = [
   {
     label: 'Starter',
     tagline: 'Para estudios que están empezando',
-    price: '$699',
+    price: '$799',
     priceContext: 'Un alumno recuperado ya lo paga',
     conversations: 'Hasta 150 conversaciones mensuales',
     highlighted: false,
     features: [
+      'Bot con IA incluido',
       'Confirma reservas automáticamente',
       'Envía recordatorios para reducir faltas',
       'Responde mensajes fuera de horario',
@@ -32,13 +33,14 @@ const plans: Plan[] = [
   {
     label: 'Growth',
     tagline: 'Para estudios que quieren crecer',
-    price: '$1,299',
+    price: '$1,499',
     priceContext: 'Menos de lo que pierdes con 3 ausencias',
     conversations: 'Hasta 500 conversaciones mensuales',
     highlighted: true,
     badge: 'Más popular',
     features: [
       'Todo lo del plan Starter',
+      'Bot con IA sin límite de mensajes',
       'Recupera alumnos que dejaron de asistir',
       'Llena clases sin intervención manual',
       'Seguimiento automático de interesados',
@@ -49,7 +51,7 @@ const plans: Plan[] = [
   {
     label: 'Pro',
     tagline: 'Para estudios con operación consolidada',
-    price: '$2,499',
+    price: '$2,799',
     priceContext: 'Diseñado para estudios de alto volumen',
     conversations: 'Hasta 1,200 conversaciones mensuales',
     highlighted: false,
